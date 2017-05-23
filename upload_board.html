@@ -27,7 +27,7 @@ img: "create.png"
 <li> Make some changes to either our  <a href=https://raw.github.com/joereddington/CommuniKate/master/ck12/CK12%2BV2.pptx>CK12 template</a> or <a href=https://raw.githubusercontent.com/joereddington/CommuniKate/master/ck20/CK20V2.pptx>CK20 template</a>. </li>
 <li> Upload your version using the form below. </li>
 </ol>
-<form action="http://designs.theopenvoicefactory.org/upload.php" method="post" enctype="multipart/form-data">
+<form action="http://designs.theopenvoicefactory.org/upload.php" method="post" enctype="multipart/form-data" id="mainupload">
 
     <h3>File to upload</h3>
 <p>The Open Voice Factory is simple.  There are NO usernames, NO passwords.  Just upload a template and you’ll be given a special link that you can always use to get back to the communication device you created. </p>
@@ -45,7 +45,8 @@ img: "create.png"
 <br>
 <br>
 <script src="choosevoice.js"></script>
-    <input type="submit" value="Upload File" name="submit">
+   <button class="button" data-tooltip="Please select a file and a gridsize first!" disabled>Process uploaded file</button>
+
 </form>
 
 <p>Please note that the Open Voice Factory is in Beta - it's for testing only right now, we aren't recommending it for deployment with users yet.</p> <p> At  this stage of development, anyone with the correct link will be able to view your files. Please keep this in mind before uploading content that may be private. </p>
@@ -65,6 +66,7 @@ img: "create.png"
 </section>
 
 
+ <script src="form-validation.js"></script>
  {% include contact.html %}
 		{% include footer.html %}
 		{% include js.html %}
