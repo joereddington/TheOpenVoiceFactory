@@ -6,12 +6,15 @@ title: About The Open Voice Factory
 description: |
 ---
 
+Up to 15 in every 1,000 children have such severe speech-language impairments that they have difficulty making themselves understood, This affects everything from daily activities like playing with other children and taking part in school to talking to a doctor about your symptoms or your family about your hopes.  
 
-The Open Voice Factory converts communication boards into communication devices.
+Electronic speech aids, which ‘speak’ set words or phrases when a sequence of symbols are pressed, can be life-changing for these children, but current devices are expensive even in economically developed countries. 
 
-Anyone can create an aid by editing a PowerPoint template to add their one pages or utterances.  When you upload your template to the factory, it will create a working communication aid for you. 
+The Open Voice Factory is provides free speech aid software by converting communication boards into communication devices.
 
-The resulting programs run on any platform, from tablets to laptops to phones, without installation or complex setup.
+Anyone can create an aid by editing a PowerPoint communication board template to add their one pages or utterances. When you upload your template to the factory, it will create a working communication aid for you.
+
+The resulting programs run on any platform, from tablets to laptops to phones, without installation or complex setup. 
 
 Everything we make is free.  That’s free as in ‘don’t pay for it’ and free as in speech.  All of our code is freely available on github [here](https://github.com/joereddington/TheOpenVoiceFactory) and anyone can change or repurpose without having to ask us first. We’re supported by the volunteers who write the code, create the templates and help out all over. 
 

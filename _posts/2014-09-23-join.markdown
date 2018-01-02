@@ -53,3 +53,5 @@ The Open Voice Factory relies on volenteers to do things like test, convert, spo
 
 We're always looking for more people to make a contribution, particular coders, designers, translators and testers. If you like what we are trying to do, please get in touch. 
 
+
+The Open Voice Factory is an [eQuality Time](http://equalitytime.co.uk/) intervention. 
