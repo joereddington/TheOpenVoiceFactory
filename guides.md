@@ -9,7 +9,8 @@ This page helps you get started with the Open Voice Factory.
 In time for our Beta release, we've got four videos. 
 
 
-## Getting started 
+## Getting started ##
+
 
 This is our three minute getting started video. It is a single take shown at normal speed and without cuts. It shows how you can download the templates, make changes, and upload them again to create an online communcation app. 
 
