@@ -10,7 +10,7 @@ Up to 15 in every 1,000 children have such severe speech-language impairments th
 
 Electronic speech aids, which ‘speak’ set words or phrases when a sequence of symbols are pressed, can be life-changing for these children, but current devices are expensive even in economically developed countries. 
 
-The Open Voice Factory is provides free speech aid software by converting communication boards into communication devices.
+The Open Voice Factory provides free speech aid software by converting communication boards into communication devices.
 
 Anyone can create an aid by editing a PowerPoint communication board template to add their own pages or utterances. When you upload your template to the factory, it will create a working communication aid for you.
 
