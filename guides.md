@@ -12,7 +12,7 @@ In time for our Beta release, we've got four videos.
 ## Getting started ##
 
 
-This is our three minute getting started video. It is a single take shown at normal speed and without cuts. It shows how you can download the templates, make changes, and upload them again to create an online communcation app. 
+This is our three minute getting started video. It is a single take shown at normal speed and without cuts. It shows how you can download the templates, make changes, and upload them again to create an online communication app. If you'd prefer an introduction on a windows machine, we've recorded one [here](https://www.youtube.com/watch?reload=9&v=NMEamPEvabU&feature=youtu.be)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EMURT7RXOLg" frameborder="0" allowfullscreen></iframe>
 
