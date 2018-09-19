@@ -163,10 +163,10 @@ function setupInternalDataStructuresObf(responseText) {
             colours.addPage(boardname, colorPage);
             key = boardname;
 
-            console.log("labels: ", labels);
-            console.log("icons: ", icons);
-            console.log("utterances: ", utterances);
-            console.log("colours: ", colours);
+            //console.log("labels: ", labels);
+            //console.log("icons: ", icons);
+            //console.log("utterances: ", utterances);
+            //console.log("colours: ", colours);
             
             grid_size_rows = rows;
             grid_size_columns = columns; //Global variables for rows and columns
