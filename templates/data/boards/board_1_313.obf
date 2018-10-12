@@ -1,0 +1,231 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 0,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3937_22ef97f7b5acc32b8d30b557"
+    },
+    {
+      "id": 1,
+      "label": "milkshake",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3938_d14e82c6a8f22bff05baeb81"
+    },
+    {
+      "id": 2,
+      "label": "banana milkshake",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3939_a6e0f6022a1b15383cd93bd0"
+    },
+    {
+      "id": 3,
+      "label": "strawberry milkshake",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3940_00d3c503cef2c84c26df51a2"
+    },
+    {
+      "id": 4,
+      "label": "chocolate milkshake",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3941_d038a76f994c519255153fa1"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3937_22ef97f7b5acc32b8d30b557",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3937_22ef97f7b5acc32b8d30b557",
+      "content_type": "image/svg",
+      "path": "images/image_1_3937_22ef97f7b5acc32b8d30b557.svg"
+    },
+    {
+      "id": "1_3938_d14e82c6a8f22bff05baeb81",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/milkshake.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3938_d14e82c6a8f22bff05baeb81",
+      "content_type": "image/svg",
+      "path": "images/image_1_3938_d14e82c6a8f22bff05baeb81.svg"
+    },
+    {
+      "id": "1_3939_a6e0f6022a1b15383cd93bd0",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/milkshake banana.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3939_a6e0f6022a1b15383cd93bd0",
+      "content_type": "image/svg",
+      "path": "images/image_1_3939_a6e0f6022a1b15383cd93bd0.svg"
+    },
+    {
+      "id": "1_3940_00d3c503cef2c84c26df51a2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/milkshake strawberry.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3940_00d3c503cef2c84c26df51a2",
+      "content_type": "image/svg",
+      "path": "images/image_1_3940_00d3c503cef2c84c26df51a2.svg"
+    },
+    {
+      "id": "1_3941_d038a76f994c519255153fa1",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/milkshake chocolate.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3941_d038a76f994c519255153fa1",
+      "content_type": "image/svg",
+      "path": "images/image_1_3941_d038a76f994c519255153fa1.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_313",
+  "locale": "en",
+  "name": "CommuniKate Milkshake",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-milkshake",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-milkshake",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-milkshake",
+    "word_suggestions": false
+  }
+}

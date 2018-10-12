@@ -5,7 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: './', //set this if you want to run tests from a specific directory
 
 
     // frameworks to use
@@ -15,8 +15,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      '*.js',
-      'tests/*.js'
+      'https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js',
+      'spec/*_test.js',
+      'javascript/read_json.js',
+      //'javascript/tests/*.js',
+      {pattern: 'testdata/*.obf', watched: true, served: true, included: true}
     ],
 
 
@@ -25,6 +28,9 @@ module.exports = function(config) {
       'n'
     ],
 
+    proxies: {
+        '/testdata/': '/base/testdata/'
+    },
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
@@ -57,12 +63,18 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
+    
+    plugins: [
+      'karma-jquery',
+      'karma-jasmine',
+      'karma-chrome-launcher'
+    ],
 
     // Concurrency level
     // how many browser should be started simultaneous

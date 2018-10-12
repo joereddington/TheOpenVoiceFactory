@@ -1,0 +1,523 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 18,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3336_376f23acb2013f67e53127dc"
+    },
+    {
+      "id": 1,
+      "label": "disabilities",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5076_69b00b3f27a3b1cfc21738c8"
+    },
+    {
+      "id": 2,
+      "label": "communication book",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3338_103be22b37db4325ed10a5e2"
+    },
+    {
+      "id": 3,
+      "label": "communication aid",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3339_8e28ba47077cf40e310907ad"
+    },
+    {
+      "id": 4,
+      "label": "touch screen",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3340_7c073638fad16e1562318ea3"
+    },
+    {
+      "id": 5,
+      "label": "wheelchair",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3341_8b2f0b5ea57dc9456fa02bed"
+    },
+    {
+      "id": 6,
+      "label": "power wheelchair",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5077_e70e7430f82c3bc64299cc99"
+    },
+    {
+      "id": 7,
+      "label": "communication aid mount",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5078_540d1c0990ea16ecc16b6f41"
+    },
+    {
+      "id": 8,
+      "label": "switch mount",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3344_751b16fbf643d323994f4d95"
+    },
+    {
+      "id": 9,
+      "label": "switch",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5079_86ba3c855b740627444c9e82"
+    },
+    {
+      "id": 10,
+      "label": "hoist",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3346_2490e4e559ad2990055fde70"
+    },
+    {
+      "id": 11,
+      "label": "hearing aid",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3347_31283095fa0cd8ade83f0daf"
+    },
+    {
+      "id": 12,
+      "label": "glasses",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3348_a3c41a41958865c8aee48ac9"
+    },
+    {
+      "id": 13,
+      "label": "medicine",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3349_031e5baa9d7a3ac05ba29ba8"
+    },
+    {
+      "id": 14,
+      "label": "appointment",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3350_c4fa79e1a76b095ebec0d02d"
+    },
+    {
+      "id": 15,
+      "label": "Toilet chair",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5130_9a1c2685c1f7287e6781f693"
+    },
+    {
+      "id": 16,
+      "label": "ecu",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5081_2c463c40fd193bf0c1aca17a"
+    },
+    {
+      "id": 17,
+      "label": "charger",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3352_b3ff4cec494139391c4f2a3a"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        18,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        16,
+        null,
+        null,
+        17
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3336_376f23acb2013f67e53127dc",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3336_376f23acb2013f67e53127dc",
+      "content_type": "image/svg",
+      "path": "images/image_1_3336_376f23acb2013f67e53127dc.svg"
+    },
+    {
+      "id": "1_5076_69b00b3f27a3b1cfc21738c8",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/disabled.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5076_69b00b3f27a3b1cfc21738c8",
+      "content_type": "image/png",
+      "path": "images/image_1_5076_69b00b3f27a3b1cfc21738c8.png"
+    },
+    {
+      "id": "1_3338_103be22b37db4325ed10a5e2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication book.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3338_103be22b37db4325ed10a5e2",
+      "content_type": "image/svg",
+      "path": "images/image_1_3338_103be22b37db4325ed10a5e2.svg"
+    },
+    {
+      "id": "1_3339_8e28ba47077cf40e310907ad",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3339_8e28ba47077cf40e310907ad",
+      "content_type": "image/svg",
+      "path": "images/image_1_3339_8e28ba47077cf40e310907ad.svg"
+    },
+    {
+      "id": "1_3340_7c073638fad16e1562318ea3",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/touch screen.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3340_7c073638fad16e1562318ea3",
+      "content_type": "image/svg",
+      "path": "images/image_1_3340_7c073638fad16e1562318ea3.svg"
+    },
+    {
+      "id": "1_3341_8b2f0b5ea57dc9456fa02bed",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/wheelchair.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3341_8b2f0b5ea57dc9456fa02bed",
+      "content_type": "image/svg",
+      "path": "images/image_1_3341_8b2f0b5ea57dc9456fa02bed.svg"
+    },
+    {
+      "id": "1_5077_e70e7430f82c3bc64299cc99",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/power wheelchair.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5077_e70e7430f82c3bc64299cc99",
+      "content_type": "image/png",
+      "path": "images/image_1_5077_e70e7430f82c3bc64299cc99.png"
+    },
+    {
+      "id": "1_5078_540d1c0990ea16ecc16b6f41",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/wheelchair communication aid.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5078_540d1c0990ea16ecc16b6f41",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5078_540d1c0990ea16ecc16b6f41.svg"
+    },
+    {
+      "id": "1_3344_751b16fbf643d323994f4d95",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/switch mount.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3344_751b16fbf643d323994f4d95",
+      "content_type": "image/svg",
+      "path": "images/image_1_3344_751b16fbf643d323994f4d95.svg"
+    },
+    {
+      "id": "1_5079_86ba3c855b740627444c9e82",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/switch_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5079_86ba3c855b740627444c9e82",
+      "content_type": "image/png",
+      "path": "images/image_1_5079_86ba3c855b740627444c9e82.png"
+    },
+    {
+      "id": "1_3346_2490e4e559ad2990055fde70",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/hoist.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3346_2490e4e559ad2990055fde70",
+      "content_type": "image/svg",
+      "path": "images/image_1_3346_2490e4e559ad2990055fde70.svg"
+    },
+    {
+      "id": "1_3347_31283095fa0cd8ade83f0daf",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/hearing aid 1.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3347_31283095fa0cd8ade83f0daf",
+      "content_type": "image/svg",
+      "path": "images/image_1_3347_31283095fa0cd8ade83f0daf.svg"
+    },
+    {
+      "id": "1_3348_a3c41a41958865c8aee48ac9",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/glasses.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3348_a3c41a41958865c8aee48ac9",
+      "content_type": "image/svg",
+      "path": "images/image_1_3348_a3c41a41958865c8aee48ac9.svg"
+    },
+    {
+      "id": "1_3349_031e5baa9d7a3ac05ba29ba8",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/medicine.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3349_031e5baa9d7a3ac05ba29ba8",
+      "content_type": "image/svg",
+      "path": "images/image_1_3349_031e5baa9d7a3ac05ba29ba8.svg"
+    },
+    {
+      "id": "1_3350_c4fa79e1a76b095ebec0d02d",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/appointment.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3350_c4fa79e1a76b095ebec0d02d",
+      "content_type": "image/png",
+      "path": "images/image_1_3350_c4fa79e1a76b095ebec0d02d.png"
+    },
+    {
+      "id": "1_5130_9a1c2685c1f7287e6781f693",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/potty chair.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5130_9a1c2685c1f7287e6781f693",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5130_9a1c2685c1f7287e6781f693.svg"
+    },
+    {
+      "id": "1_5081_2c463c40fd193bf0c1aca17a",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/environment control.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5081_2c463c40fd193bf0c1aca17a",
+      "content_type": "image/png",
+      "path": "images/image_1_5081_2c463c40fd193bf0c1aca17a.png"
+    },
+    {
+      "id": "1_3352_b3ff4cec494139391c4f2a3a",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/charger electric.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3352_b3ff4cec494139391c4f2a3a",
+      "content_type": "image/svg",
+      "path": "images/image_1_3352_b3ff4cec494139391c4f2a3a.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_273",
+  "locale": "en",
+  "name": "CommuniKate Things That Help",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-things-that-help",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-things-that-help",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-things-that-help",
+    "word_suggestions": false
+  }
+}

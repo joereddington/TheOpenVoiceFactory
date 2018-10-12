@@ -1,0 +1,442 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 14,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3753_00f2e940c1d7d6a41f298cc2"
+    },
+    {
+      "id": 1,
+      "label": "shop",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4635_c691563d040fb57adc03e338"
+    },
+    {
+      "id": 2,
+      "label": "supermarket",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_3755_c31a88cd580e126d085322c5"
+    },
+    {
+      "id": 3,
+      "label": "butchers",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4636_10e9faa36b1ac12b3a563124"
+    },
+    {
+      "id": 4,
+      "label": "shopping centre",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4637_b0795e9dbc53272385a622b4"
+    },
+    {
+      "id": 5,
+      "label": "bakers",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4638_93d7361bafdc877d94ff4bde"
+    },
+    {
+      "id": 6,
+      "label": "veg shop",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4645_1e2850f3d678e864fb7cd5e8"
+    },
+    {
+      "id": 7,
+      "label": "department store",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_5124_86963fd4e3c8e2fe05d8e14d"
+    },
+    {
+      "id": 8,
+      "label": "clothes shop",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4640_ca8b5023f905e123e379722b"
+    },
+    {
+      "id": 9,
+      "label": "music shop",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4642_b48694bb57de35ae3cdc9ee3"
+    },
+    {
+      "id": 10,
+      "label": "market",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_11352_71a428024f0d4acea6a718bb"
+    },
+    {
+      "id": 11,
+      "label": "coffee shop",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4646_85c610773bbb584539b8d479"
+    },
+    {
+      "id": 12,
+      "label": "drive through",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4648_9422676098b588b200e7272f"
+    },
+    {
+      "id": 13,
+      "label": "pharmacy",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4649_dfdfb340a06f517c46e066b1"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        14,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3753_00f2e940c1d7d6a41f298cc2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3753_00f2e940c1d7d6a41f298cc2",
+      "content_type": "image/svg",
+      "path": "images/image_1_3753_00f2e940c1d7d6a41f298cc2.svg"
+    },
+    {
+      "id": "1_4635_c691563d040fb57adc03e338",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/shop.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4635_c691563d040fb57adc03e338",
+      "content_type": "image/png",
+      "path": "images/image_1_4635_c691563d040fb57adc03e338.png"
+    },
+    {
+      "id": "1_3755_c31a88cd580e126d085322c5",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/supermarket.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3755_c31a88cd580e126d085322c5",
+      "content_type": "image/png",
+      "path": "images/image_1_3755_c31a88cd580e126d085322c5.png"
+    },
+    {
+      "id": "1_4636_10e9faa36b1ac12b3a563124",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/butcher_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4636_10e9faa36b1ac12b3a563124",
+      "content_type": "image/png",
+      "path": "images/image_1_4636_10e9faa36b1ac12b3a563124.png"
+    },
+    {
+      "id": "1_4637_b0795e9dbc53272385a622b4",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/shopping centre_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4637_b0795e9dbc53272385a622b4",
+      "content_type": "image/png",
+      "path": "images/image_1_4637_b0795e9dbc53272385a622b4.png"
+    },
+    {
+      "id": "1_4638_93d7361bafdc877d94ff4bde",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/baker_5.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4638_93d7361bafdc877d94ff4bde",
+      "content_type": "image/png",
+      "path": "images/image_1_4638_93d7361bafdc877d94ff4bde.png"
+    },
+    {
+      "id": "1_4645_1e2850f3d678e864fb7cd5e8",
+      "width": 500,
+      "height": 500,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/(vegetable) garden.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4645_1e2850f3d678e864fb7cd5e8",
+      "content_type": "image/png",
+      "path": "images/image_1_4645_1e2850f3d678e864fb7cd5e8.png"
+    },
+    {
+      "id": "1_5124_86963fd4e3c8e2fe05d8e14d",
+      "width": 100,
+      "height": 100,
+      "license": {
+        "type": "public domain",
+        "copyright_notice_url": "http://en.wikipedia.org/wiki/Public_domain",
+        "source_url": "http://thenounproject.com/term/running/",
+        "author_name": "CO. Department of Health Care Policy and Financing",
+        "author_url": "http://thenounproject.com/HCPF",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Running-53a8bd4c6b.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5124_86963fd4e3c8e2fe05d8e14d",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5124_86963fd4e3c8e2fe05d8e14d.svg"
+    },
+    {
+      "id": "1_4640_ca8b5023f905e123e379722b",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/clothes shop_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4640_ca8b5023f905e123e379722b",
+      "content_type": "image/png",
+      "path": "images/image_1_4640_ca8b5023f905e123e379722b.png"
+    },
+    {
+      "id": "1_4642_b48694bb57de35ae3cdc9ee3",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/music shop.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4642_b48694bb57de35ae3cdc9ee3",
+      "content_type": "image/png",
+      "path": "images/image_1_4642_b48694bb57de35ae3cdc9ee3.png"
+    },
+    {
+      "id": "1_11352_71a428024f0d4acea6a718bb",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/market_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_11352_71a428024f0d4acea6a718bb",
+      "content_type": "image/png",
+      "path": "images/image_1_11352_71a428024f0d4acea6a718bb.png"
+    },
+    {
+      "id": "1_4646_85c610773bbb584539b8d479",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/cafe.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4646_85c610773bbb584539b8d479",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4646_85c610773bbb584539b8d479.svg"
+    },
+    {
+      "id": "1_4648_9422676098b588b200e7272f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to drive.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4648_9422676098b588b200e7272f",
+      "content_type": "image/png",
+      "path": "images/image_1_4648_9422676098b588b200e7272f.png"
+    },
+    {
+      "id": "1_4649_dfdfb340a06f517c46e066b1",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/pharmacy.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4649_dfdfb340a06f517c46e066b1",
+      "content_type": "image/png",
+      "path": "images/image_1_4649_dfdfb340a06f517c46e066b1.png"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_299",
+  "locale": "en",
+  "name": "CommuniKate Shops",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-shops",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-shops",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-shops",
+    "word_suggestions": false
+  }
+}

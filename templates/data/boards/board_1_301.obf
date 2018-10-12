@@ -1,0 +1,535 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 18,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3776_be838a1619c5b72df91a7a77"
+    },
+    {
+      "id": 1,
+      "label": "home",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4681_033560c02a763875c6131c0a"
+    },
+    {
+      "id": 2,
+      "label": "cellar",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4682_30c00e9abdd52c6c91069c98"
+    },
+    {
+      "id": 3,
+      "label": "dining room",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4683_158186cc7d189d95ab8a3499"
+    },
+    {
+      "id": 4,
+      "label": "hall",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_11354_fe88975c13924395b7aa29be"
+    },
+    {
+      "id": 5,
+      "label": "attic",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4684_daaebd9e92c8808885f28bde"
+    },
+    {
+      "id": 6,
+      "label": "bathroom",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4685_20cd2292f8eeb394362cb7cb"
+    },
+    {
+      "id": 7,
+      "label": "lounge",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_11355_7ad10956c0243436b08b3350"
+    },
+    {
+      "id": 8,
+      "label": "study",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4687_93285700391a3149f174ae05"
+    },
+    {
+      "id": 9,
+      "label": "bedroom",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4688_1863e98842a9b206da712cc3"
+    },
+    {
+      "id": 10,
+      "label": "kitchen",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4689_c97d4144b9449c61ce87be6c"
+    },
+    {
+      "id": 11,
+      "label": "my room",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4690_09e69d17cb5e34056db9fac5"
+    },
+    {
+      "id": 12,
+      "label": "utility room",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4691_9797b03c2cab17435ecc3304"
+    },
+    {
+      "id": 13,
+      "label": "play room",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4692_3db9ef8530bd154196d6a2ae"
+    },
+    {
+      "id": 14,
+      "label": "upstairs",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4693_c858434f716930d6e7c4aa4b"
+    },
+    {
+      "id": 15,
+      "label": "downstairs",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4694_45c4f8ea08189f87acc9fd20"
+    },
+    {
+      "id": 16,
+      "label": "stairs",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_3792_19abfa5b90502165e17b3d84"
+    },
+    {
+      "id": 17,
+      "label": "office",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(122, 31, 120)",
+      "image_id": "1_4695_a0e1ff2ac46f0f4cabfb2264"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        18,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        null
+      ],
+      [
+        14,
+        15,
+        16,
+        17,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3776_be838a1619c5b72df91a7a77",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3776_be838a1619c5b72df91a7a77",
+      "content_type": "image/svg",
+      "path": "images/image_1_3776_be838a1619c5b72df91a7a77.svg"
+    },
+    {
+      "id": "1_4681_033560c02a763875c6131c0a",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/home.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4681_033560c02a763875c6131c0a",
+      "content_type": "image/png",
+      "path": "images/image_1_4681_033560c02a763875c6131c0a.png"
+    },
+    {
+      "id": "1_4682_30c00e9abdd52c6c91069c98",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/basement_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4682_30c00e9abdd52c6c91069c98",
+      "content_type": "image/png",
+      "path": "images/image_1_4682_30c00e9abdd52c6c91069c98.png"
+    },
+    {
+      "id": "1_4683_158186cc7d189d95ab8a3499",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/dining room.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4683_158186cc7d189d95ab8a3499",
+      "content_type": "image/png",
+      "path": "images/image_1_4683_158186cc7d189d95ab8a3499.png"
+    },
+    {
+      "id": "1_11354_fe88975c13924395b7aa29be",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/hall.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_11354_fe88975c13924395b7aa29be",
+      "content_type": "image/png",
+      "path": "images/image_1_11354_fe88975c13924395b7aa29be.png"
+    },
+    {
+      "id": "1_4684_daaebd9e92c8808885f28bde",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/attic_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4684_daaebd9e92c8808885f28bde",
+      "content_type": "image/png",
+      "path": "images/image_1_4684_daaebd9e92c8808885f28bde.png"
+    },
+    {
+      "id": "1_4685_20cd2292f8eeb394362cb7cb",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/bathroom.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4685_20cd2292f8eeb394362cb7cb",
+      "content_type": "image/png",
+      "path": "images/image_1_4685_20cd2292f8eeb394362cb7cb.png"
+    },
+    {
+      "id": "1_11355_7ad10956c0243436b08b3350",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/sofa_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_11355_7ad10956c0243436b08b3350",
+      "content_type": "image/png",
+      "path": "images/image_1_11355_7ad10956c0243436b08b3350.png"
+    },
+    {
+      "id": "1_4687_93285700391a3149f174ae05",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/study_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4687_93285700391a3149f174ae05",
+      "content_type": "image/png",
+      "path": "images/image_1_4687_93285700391a3149f174ae05.png"
+    },
+    {
+      "id": "1_4688_1863e98842a9b206da712cc3",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/bedroom_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4688_1863e98842a9b206da712cc3",
+      "content_type": "image/png",
+      "path": "images/image_1_4688_1863e98842a9b206da712cc3.png"
+    },
+    {
+      "id": "1_4689_c97d4144b9449c61ce87be6c",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/kitchen.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4689_c97d4144b9449c61ce87be6c",
+      "content_type": "image/png",
+      "path": "images/image_1_4689_c97d4144b9449c61ce87be6c.png"
+    },
+    {
+      "id": "1_4690_09e69d17cb5e34056db9fac5",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/messy room.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4690_09e69d17cb5e34056db9fac5",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4690_09e69d17cb5e34056db9fac5.svg"
+    },
+    {
+      "id": "1_4691_9797b03c2cab17435ecc3304",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/utility room.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4691_9797b03c2cab17435ecc3304",
+      "content_type": "image/png",
+      "path": "images/image_1_4691_9797b03c2cab17435ecc3304.png"
+    },
+    {
+      "id": "1_4692_3db9ef8530bd154196d6a2ae",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/toy library.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4692_3db9ef8530bd154196d6a2ae",
+      "content_type": "image/png",
+      "path": "images/image_1_4692_3db9ef8530bd154196d6a2ae.png"
+    },
+    {
+      "id": "1_4693_c858434f716930d6e7c4aa4b",
+      "width": 100,
+      "height": 100,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/",
+        "source_url": "http://thenounproject.com/term/upstairs/",
+        "author_name": "Yo Szczepanska",
+        "author_url": "http://thenounproject.com/joszczepanska",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Upstairs-457be596a3.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4693_c858434f716930d6e7c4aa4b",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4693_c858434f716930d6e7c4aa4b.svg"
+    },
+    {
+      "id": "1_4694_45c4f8ea08189f87acc9fd20",
+      "width": 100,
+      "height": 83,
+      "license": {
+        "type": "public domain",
+        "copyright_notice_url": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "source_url": "http://thenounproject.com/term/downstairs/",
+        "author_name": "Unknown Designer",
+        "author_url": "http://thenounproject.com",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Downstairs-d762c34cc7.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4694_45c4f8ea08189f87acc9fd20",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4694_45c4f8ea08189f87acc9fd20.svg"
+    },
+    {
+      "id": "1_3792_19abfa5b90502165e17b3d84",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/stairs.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3792_19abfa5b90502165e17b3d84",
+      "content_type": "image/svg",
+      "path": "images/image_1_3792_19abfa5b90502165e17b3d84.svg"
+    },
+    {
+      "id": "1_4695_a0e1ff2ac46f0f4cabfb2264",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/office.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4695_a0e1ff2ac46f0f4cabfb2264",
+      "content_type": "image/png",
+      "path": "images/image_1_4695_a0e1ff2ac46f0f4cabfb2264.png"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_301",
+  "locale": "en",
+  "name": "CommuniKate Home",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-home",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-home",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-home",
+    "word_suggestions": false
+  }
+}

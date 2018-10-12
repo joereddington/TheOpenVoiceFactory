@@ -1,0 +1,52 @@
+[{
+	"format": "open-board-0.1",
+	"id": "test-1",
+	"locale": "en",
+	"name": "A test board with an invalid image",
+	"ext_speaker_url": "http://www.example.com/mylink",
+	"description_html": "A test board with an invalid image (3)",
+	"grid": {
+		"rows": 1,
+		"columns": 1,
+		"order": [
+			["T1"]
+		]
+	},
+	"buttons": [
+    {
+		"id": "T1",
+        "image_id": "2",
+		"label": "Testing",
+        "sound_id": "s1",
+        "border_color": "rgb(0, 0, 55)",
+        "background_color": "rgba(200, 255, 255, 0.2)"
+	},
+    {
+        "id": "T2",
+        "label": "sad",
+        "image_id": "3"
+    }
+    ],
+    "images": [
+    {
+      "id": "2",
+      "url": "http://cdn.myaacapp.com/happy.png",
+      "width": 1024,
+      "height": 768,
+      "content_type": "image/png"
+    },
+    {
+      "id": "3",      
+      "width": 1024,
+      "height": 768,
+      "content_type": "image/png"
+    }
+    ],
+    "sounds": [
+	{
+      "id": "s1",
+      "url": "http://soundbible.com/grab.php?id=132&type=mp3",
+      "duration": 2,
+      "content_type": "audio/mp3"
+    }]       
+}]

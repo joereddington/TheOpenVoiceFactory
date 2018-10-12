@@ -1,0 +1,19 @@
+[{
+	"format": "open-board-0.1",
+	"id": "test-1",
+	"locale": "en",
+	"name": "valid single cell board",
+	"ext_speaker_url": "http://www.example.com/mylink",
+	"description_html": "A valid test board with a single cell",
+	"grid": {
+		"rows": 1,
+		"columns": 1,
+		"order": [
+			["T1"]
+		]
+	},
+	"buttons": [{
+		"id": "T1",
+		"label": "Testing"
+	}]
+}]

@@ -1,0 +1,50 @@
+[{
+	"format": "open-board-0.1",
+	"id": "test-4",
+	"locale": "en",
+	"name": "valid multi cell board",
+	"ext_speaker_url": "http://www.example.com/mylink",
+	"description_html": "A valid test board with a 3x2 grid of cells",
+	"grid": {
+		"rows": 3,
+		"columns": 2,
+		"order": [
+			["T1", "T2"],
+			["T6", "T7"],
+			["T11", "T12"]
+		]
+	},
+  "buttons": [
+    {
+      "id": "T1",
+      "label": "happy",
+      "sound_id": "s1"
+    },
+    {
+      "id": "T2",
+      "label": "sad"
+    },    
+    {
+      "id": "T6",
+      "label": "like"
+    },
+    {
+      "id": "T7",
+      "label": "not happy"
+    },    
+    {
+      "id": "T11",
+      "label": "cold"
+    },
+    {
+      "id": "T12",
+      "label": "hot"
+    }],
+  "sounds": [
+    {
+      "id": "s1",
+      "url": "http://soundbible.com/grab.php?id=132&type=mp3",
+      "duration": 2,
+      "content_type": "audio/mp3"
+    }]
+}]

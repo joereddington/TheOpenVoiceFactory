@@ -1,0 +1,363 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 0,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_4067_ea3082a9f0ff6812b5025041"
+    },
+    {
+      "id": 1,
+      "label": "pet",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4068_1dea0d10a628fb8aef3446b9"
+    },
+    {
+      "id": 2,
+      "label": "cat",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4069_1180b72ec78592d0fab5cc87"
+    },
+    {
+      "id": 3,
+      "label": "hamster",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4070_23d0e45a4bcee943e64049c7"
+    },
+    {
+      "id": 4,
+      "label": "mouse",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4071_4ee641b37f3de300bde49665"
+    },
+    {
+      "id": 5,
+      "label": "guinea pig",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4072_cac0f01f00d7bf48c7395f55"
+    },
+    {
+      "id": 6,
+      "label": "rabbit",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4073_58a98751ecf947bc5570e687"
+    },
+    {
+      "id": 7,
+      "label": "horse",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4074_2ec051248f8cd7a890ffb5b1"
+    },
+    {
+      "id": 8,
+      "label": "fish",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4075_ce411802ea7570c2f49ae778"
+    },
+    {
+      "id": 9,
+      "label": "rat",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4076_27492513f37de3cb636d1ad0"
+    },
+    {
+      "id": 10,
+      "label": "dog",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4077_442f4a32c579347fc857fe80"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_4067_ea3082a9f0ff6812b5025041",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4067_ea3082a9f0ff6812b5025041",
+      "content_type": "image/svg",
+      "path": "images/image_1_4067_ea3082a9f0ff6812b5025041.svg"
+    },
+    {
+      "id": "1_4068_1dea0d10a628fb8aef3446b9",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/pet blanket.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4068_1dea0d10a628fb8aef3446b9",
+      "content_type": "image/svg",
+      "path": "images/image_1_4068_1dea0d10a628fb8aef3446b9.svg"
+    },
+    {
+      "id": "1_4069_1180b72ec78592d0fab5cc87",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/cat.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4069_1180b72ec78592d0fab5cc87",
+      "content_type": "image/svg",
+      "path": "images/image_1_4069_1180b72ec78592d0fab5cc87.svg"
+    },
+    {
+      "id": "1_4070_23d0e45a4bcee943e64049c7",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/hamster.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4070_23d0e45a4bcee943e64049c7",
+      "content_type": "image/svg",
+      "path": "images/image_1_4070_23d0e45a4bcee943e64049c7.svg"
+    },
+    {
+      "id": "1_4071_4ee641b37f3de300bde49665",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mouse.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4071_4ee641b37f3de300bde49665",
+      "content_type": "image/svg",
+      "path": "images/image_1_4071_4ee641b37f3de300bde49665.svg"
+    },
+    {
+      "id": "1_4072_cac0f01f00d7bf48c7395f55",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/guinea pig.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4072_cac0f01f00d7bf48c7395f55",
+      "content_type": "image/svg",
+      "path": "images/image_1_4072_cac0f01f00d7bf48c7395f55.svg"
+    },
+    {
+      "id": "1_4073_58a98751ecf947bc5570e687",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/rabbit.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4073_58a98751ecf947bc5570e687",
+      "content_type": "image/svg",
+      "path": "images/image_1_4073_58a98751ecf947bc5570e687.svg"
+    },
+    {
+      "id": "1_4074_2ec051248f8cd7a890ffb5b1",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/horse.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4074_2ec051248f8cd7a890ffb5b1",
+      "content_type": "image/svg",
+      "path": "images/image_1_4074_2ec051248f8cd7a890ffb5b1.svg"
+    },
+    {
+      "id": "1_4075_ce411802ea7570c2f49ae778",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/fish.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4075_ce411802ea7570c2f49ae778",
+      "content_type": "image/svg",
+      "path": "images/image_1_4075_ce411802ea7570c2f49ae778.svg"
+    },
+    {
+      "id": "1_4076_27492513f37de3cb636d1ad0",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/rat.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4076_27492513f37de3cb636d1ad0",
+      "content_type": "image/svg",
+      "path": "images/image_1_4076_27492513f37de3cb636d1ad0.svg"
+    },
+    {
+      "id": "1_4077_442f4a32c579347fc857fe80",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/dog.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4077_442f4a32c579347fc857fe80",
+      "content_type": "image/svg",
+      "path": "images/image_1_4077_442f4a32c579347fc857fe80.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_325",
+  "locale": "en",
+  "name": "CommuniKate Pets",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-pets",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-pets",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-pets",
+    "word_suggestions": false
+  }
+}

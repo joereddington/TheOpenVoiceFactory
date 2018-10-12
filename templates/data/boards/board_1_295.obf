@@ -1,0 +1,230 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 4,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3705_4e20e21316fd84ce4413c769"
+    },
+    {
+      "id": 1,
+      "label": "Weather",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_320",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-weather",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-weather",
+        "path": "board_1_320.obf"
+      },
+      "image_id": "1_5409_bdebc98bdc362933ca707974"
+    },
+    {
+      "id": 2,
+      "label": "Animals",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_321",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-animals",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-animals",
+        "path": "board_1_321.obf"
+      },
+      "image_id": "1_5410_4b832170d81d140e9e6becc7"
+    },
+    {
+      "id": 3,
+      "label": "Gardening",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_322",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-gardening",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-gardening",
+        "path": "board_1_322.obf"
+      },
+      "image_id": "1_5411_38341510523d503d4e1f660e"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        4,
+        1,
+        2,
+        3,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3705_4e20e21316fd84ce4413c769",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3705_4e20e21316fd84ce4413c769",
+      "content_type": "image/svg",
+      "path": "images/image_1_3705_4e20e21316fd84ce4413c769.svg"
+    },
+    {
+      "id": "1_5409_bdebc98bdc362933ca707974",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/how is the weather.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5409_bdebc98bdc362933ca707974",
+      "content_type": "image/png",
+      "path": "images/image_1_5409_bdebc98bdc362933ca707974.png"
+    },
+    {
+      "id": "1_5410_4b832170d81d140e9e6becc7",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/animals_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5410_4b832170d81d140e9e6becc7",
+      "content_type": "image/png",
+      "path": "images/image_1_5410_4b832170d81d140e9e6becc7.png"
+    },
+    {
+      "id": "1_5411_38341510523d503d4e1f660e",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/gardening workshop.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5411_38341510523d503d4e1f660e",
+      "content_type": "image/png",
+      "path": "images/image_1_5411_38341510523d503d4e1f660e.png"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_295",
+  "locale": "en",
+  "name": "CommuniKate Nature",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-nature",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-nature",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-nature",
+    "word_suggestions": false
+  }
+}

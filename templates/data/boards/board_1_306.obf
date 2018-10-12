@@ -1,0 +1,306 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 0,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3859_7d4e1558354f879693f889fe"
+    },
+    {
+      "id": 1,
+      "label": "pause/play",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)"
+    },
+    {
+      "id": 2,
+      "label": "My DVDs",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(63, 102, 221)",
+      "image_id": "1_3860_ece7f1ee67c1cd9411a1b71d"
+    },
+    {
+      "id": 3,
+      "label": "dvd Volume Up",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3861_c0bfa57991fd3558459db3c2"
+    },
+    {
+      "id": 4,
+      "label": "dvd Volume Down",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3862_7e12d92723b5707ea999df6e"
+    },
+    {
+      "id": 5,
+      "label": "mute",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(63, 102, 221)",
+      "image_id": "1_3863_fe772eaa97a82829245bfa6f"
+    },
+    {
+      "id": 6,
+      "label": "shuffle",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(63, 102, 221)",
+      "image_id": "1_3864_fbf11b022981612ad889d893"
+    },
+    {
+      "id": 7,
+      "label": "previous track",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(63, 102, 221)",
+      "image_id": "1_3865_7ae476044bd75f3d2862a9dd"
+    },
+    {
+      "id": 8,
+      "label": "next track",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(63, 102, 221)",
+      "image_id": "1_3866_de073cd022c12272fcc6a12b"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        0,
+        null,
+        null,
+        null,
+        1
+      ],
+      [
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3859_7d4e1558354f879693f889fe",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3859_7d4e1558354f879693f889fe",
+      "content_type": "image/svg",
+      "path": "images/image_1_3859_7d4e1558354f879693f889fe.svg"
+    },
+    {
+      "id": "1_3860_ece7f1ee67c1cd9411a1b71d",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/my computer icon.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3860_ece7f1ee67c1cd9411a1b71d",
+      "content_type": "image/svg",
+      "path": "images/image_1_3860_ece7f1ee67c1cd9411a1b71d.svg"
+    },
+    {
+      "id": "1_3861_c0bfa57991fd3558459db3c2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/DVD player.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3861_c0bfa57991fd3558459db3c2",
+      "content_type": "image/svg",
+      "path": "images/image_1_3861_c0bfa57991fd3558459db3c2.svg"
+    },
+    {
+      "id": "1_3862_7e12d92723b5707ea999df6e",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/DVD player portable.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3862_7e12d92723b5707ea999df6e",
+      "content_type": "image/svg",
+      "path": "images/image_1_3862_7e12d92723b5707ea999df6e.svg"
+    },
+    {
+      "id": "1_3863_fe772eaa97a82829245bfa6f",
+      "width": 100,
+      "height": 100,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/",
+        "source_url": "http://thenounproject.com/term/mute/",
+        "author_name": "Sergey Bakin",
+        "author_url": "http://thenounproject.com/ser.tween"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Mute-0e6f6fd0f3.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3863_fe772eaa97a82829245bfa6f",
+      "content_type": "image/svg",
+      "path": "images/image_1_3863_fe772eaa97a82829245bfa6f.svg"
+    },
+    {
+      "id": "1_3864_fbf11b022981612ad889d893",
+      "width": 32,
+      "height": 32,
+      "license": {
+        "type": "CC By 3.0",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/us/",
+        "source_url": "https://icomoon.io",
+        "author_name": "Keyamoon",
+        "author_url": "http://keyamoon.com/"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/icomoon/shuffle.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3864_fbf11b022981612ad889d893",
+      "content_type": "image/svg",
+      "path": "images/image_1_3864_fbf11b022981612ad889d893.svg"
+    },
+    {
+      "id": "1_3865_7ae476044bd75f3d2862a9dd",
+      "width": 32,
+      "height": 32,
+      "license": {
+        "type": "CC By 3.0",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/us/",
+        "source_url": "https://icomoon.io",
+        "author_name": "Keyamoon",
+        "author_url": "http://keyamoon.com/"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/icomoon/previous.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3865_7ae476044bd75f3d2862a9dd",
+      "content_type": "image/svg",
+      "path": "images/image_1_3865_7ae476044bd75f3d2862a9dd.svg"
+    },
+    {
+      "id": "1_3866_de073cd022c12272fcc6a12b",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/next week.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3866_de073cd022c12272fcc6a12b",
+      "content_type": "image/svg",
+      "path": "images/image_1_3866_de073cd022c12272fcc6a12b.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_306",
+  "locale": "en",
+  "name": "CommuniKate DVD",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-dvd",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-dvd",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-dvd",
+    "word_suggestions": false
+  }
+}

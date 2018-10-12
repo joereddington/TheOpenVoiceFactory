@@ -1,0 +1,275 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 7,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3896_0f2f6870a18be56cde0ee7f5"
+    },
+    {
+      "id": 1,
+      "label": "potato",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3897_ada7ba4f8e141cb334a4deff"
+    },
+    {
+      "id": 2,
+      "label": "chips",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3898_543e99089d35f8f88168f964"
+    },
+    {
+      "id": 3,
+      "label": "mashed potato",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3899_154b7b6b248c325eb01a70e4"
+    },
+    {
+      "id": 4,
+      "label": "baked potato",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3900_611ceba52f475d621cc2ebf4"
+    },
+    {
+      "id": 5,
+      "label": "sweet potato",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3901_28226d97d748ccd68062280a"
+    },
+    {
+      "id": 6,
+      "label": "jacket potato",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3902_ff7315b9bbf77e33e496e6da"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        7,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        6,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3896_0f2f6870a18be56cde0ee7f5",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3896_0f2f6870a18be56cde0ee7f5",
+      "content_type": "image/svg",
+      "path": "images/image_1_3896_0f2f6870a18be56cde0ee7f5.svg"
+    },
+    {
+      "id": "1_3897_ada7ba4f8e141cb334a4deff",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/potato.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3897_ada7ba4f8e141cb334a4deff",
+      "content_type": "image/svg",
+      "path": "images/image_1_3897_ada7ba4f8e141cb334a4deff.svg"
+    },
+    {
+      "id": "1_3898_543e99089d35f8f88168f964",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/chips.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3898_543e99089d35f8f88168f964",
+      "content_type": "image/svg",
+      "path": "images/image_1_3898_543e99089d35f8f88168f964.svg"
+    },
+    {
+      "id": "1_3899_154b7b6b248c325eb01a70e4",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mash potato , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3899_154b7b6b248c325eb01a70e4",
+      "content_type": "image/svg",
+      "path": "images/image_1_3899_154b7b6b248c325eb01a70e4.svg"
+    },
+    {
+      "id": "1_3900_611ceba52f475d621cc2ebf4",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/baked beans 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3900_611ceba52f475d621cc2ebf4",
+      "content_type": "image/svg",
+      "path": "images/image_1_3900_611ceba52f475d621cc2ebf4.svg"
+    },
+    {
+      "id": "1_3901_28226d97d748ccd68062280a",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/sweet potato.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3901_28226d97d748ccd68062280a",
+      "content_type": "image/svg",
+      "path": "images/image_1_3901_28226d97d748ccd68062280a.svg"
+    },
+    {
+      "id": "1_3902_ff7315b9bbf77e33e496e6da",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/jacket potato 1.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3902_ff7315b9bbf77e33e496e6da",
+      "content_type": "image/svg",
+      "path": "images/image_1_3902_ff7315b9bbf77e33e496e6da.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_309",
+  "locale": "en",
+  "name": "CommuniKate Potato",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-potato",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-potato",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-potato",
+    "word_suggestions": false
+  }
+}

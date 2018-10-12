@@ -1,0 +1,537 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 17,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_2889_371e1f1f9ffff0bb003a10b7"
+    },
+    {
+      "id": 1,
+      "label": "I need the toilet",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_2890_7330da36c38692ee6ca99fbe"
+    },
+    {
+      "id": 2,
+      "label": "I need some help",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4770_75321335d51ccae57df04cd6"
+    },
+    {
+      "id": 4,
+      "label": "Health",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_271",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-health",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-health",
+        "path": "board_1_271.obf"
+      },
+      "image_id": "1_4771_ce280112a3ce8727c764d0a5"
+    },
+    {
+      "id": 5,
+      "label": " Body Parts",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_272",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-parts",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-parts",
+        "path": "board_1_272.obf"
+      },
+      "image_id": "1_4772_e659cb7bee1cddfbd40597a3"
+    },
+    {
+      "id": 18,
+      "label": "clothes",
+      "border_color": "rgb(170, 170, 170)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_285",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-clothes",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-clothes",
+        "path": "board_1_285.obf"
+      },
+      "image_id": "1_4774_2dd3230db7d2c4610b11f6ae"
+    },
+    {
+      "id": 6,
+      "label": "I want to chill out on my bed",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4787_70ffccf1758c84f40bfef8f3"
+    },
+    {
+      "id": 7,
+      "label": "I'd like a shave",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_2896_c7b58e6305bda2a541f2407c"
+    },
+    {
+      "id": 8,
+      "label": "I need my medication",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_11334_81b0c6283ced3ffbd9003670"
+    },
+    {
+      "id": 9,
+      "label": "Please can you clean my glasses",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4785_082d9de7c1eac132c200ec80"
+    },
+    {
+      "id": 10,
+      "label": "Can you do my nails please",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4788_4b63eda7a3aeea1bc3974338"
+    },
+    {
+      "id": 11,
+      "label": "I'd like a shower",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4789_84e94e9d6be5995c9bff2bb6"
+    },
+    {
+      "id": 12,
+      "label": "I'd love a bath",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4790_328d5205d555bc04502dba0b"
+    },
+    {
+      "id": 13,
+      "label": "Things That Help",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_273",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-things-that-help",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-things-that-help",
+        "path": "board_1_273.obf"
+      },
+      "image_id": "1_4791_4a649fddc56b6a45b3757c4d"
+    },
+    {
+      "id": 14,
+      "label": "Toiletries",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_274",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-toiletries",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-toiletries",
+        "path": "board_1_274.obf"
+      },
+      "image_id": "1_2903_222ae5f11df7222f2f73bdf8"
+    },
+    {
+      "id": 15,
+      "label": "I need to get changed",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_2904_4aec78b8b9ab078351c462ad"
+    },
+    {
+      "id": 16,
+      "label": "Can you do my hair please",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 50, 255)",
+      "image_id": "1_4792_ad2169af1b7fb18017032ddd"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        17,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        18,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        null,
+        16,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_2889_371e1f1f9ffff0bb003a10b7",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_2889_371e1f1f9ffff0bb003a10b7",
+      "content_type": "image/svg",
+      "path": "images/image_1_2889_371e1f1f9ffff0bb003a10b7.svg"
+    },
+    {
+      "id": "1_2890_7330da36c38692ee6ca99fbe",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/need toilet.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_2890_7330da36c38692ee6ca99fbe",
+      "content_type": "image/svg",
+      "path": "images/image_1_2890_7330da36c38692ee6ca99fbe.svg"
+    },
+    {
+      "id": "1_4770_75321335d51ccae57df04cd6",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/I need help.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4770_75321335d51ccae57df04cd6",
+      "content_type": "image/png",
+      "path": "images/image_1_4770_75321335d51ccae57df04cd6.png"
+    },
+    {
+      "id": "1_4771_ce280112a3ce8727c764d0a5",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/become ill_5.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4771_ce280112a3ce8727c764d0a5",
+      "content_type": "image/png",
+      "path": "images/image_1_4771_ce280112a3ce8727c764d0a5.png"
+    },
+    {
+      "id": "1_4772_e659cb7bee1cddfbd40597a3",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/body_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4772_e659cb7bee1cddfbd40597a3",
+      "content_type": "image/png",
+      "path": "images/image_1_4772_e659cb7bee1cddfbd40597a3.png"
+    },
+    {
+      "id": "1_4774_2dd3230db7d2c4610b11f6ae",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/clothes neat.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4774_2dd3230db7d2c4610b11f6ae",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4774_2dd3230db7d2c4610b11f6ae.svg"
+    },
+    {
+      "id": "1_4787_70ffccf1758c84f40bfef8f3",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/relax 3 , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4787_70ffccf1758c84f40bfef8f3",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4787_70ffccf1758c84f40bfef8f3.svg"
+    },
+    {
+      "id": "1_2896_c7b58e6305bda2a541f2407c",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/shave , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_2896_c7b58e6305bda2a541f2407c",
+      "content_type": "image/svg",
+      "path": "images/image_1_2896_c7b58e6305bda2a541f2407c.svg"
+    },
+    {
+      "id": "1_11334_81b0c6283ced3ffbd9003670",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/pills_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_11334_81b0c6283ced3ffbd9003670",
+      "content_type": "image/png",
+      "path": "images/image_1_11334_81b0c6283ced3ffbd9003670.png"
+    },
+    {
+      "id": "1_4785_082d9de7c1eac132c200ec80",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to clean the glasses.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4785_082d9de7c1eac132c200ec80",
+      "content_type": "image/png",
+      "path": "images/image_1_4785_082d9de7c1eac132c200ec80.png"
+    },
+    {
+      "id": "1_4788_4b63eda7a3aeea1bc3974338",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/file nails , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4788_4b63eda7a3aeea1bc3974338",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4788_4b63eda7a3aeea1bc3974338.svg"
+    },
+    {
+      "id": "1_4789_84e94e9d6be5995c9bff2bb6",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to have a shower.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4789_84e94e9d6be5995c9bff2bb6",
+      "content_type": "image/png",
+      "path": "images/image_1_4789_84e94e9d6be5995c9bff2bb6.png"
+    },
+    {
+      "id": "1_4790_328d5205d555bc04502dba0b",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to bathe.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4790_328d5205d555bc04502dba0b",
+      "content_type": "image/png",
+      "path": "images/image_1_4790_328d5205d555bc04502dba0b.png"
+    },
+    {
+      "id": "1_4791_4a649fddc56b6a45b3757c4d",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/mobility aids.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4791_4a649fddc56b6a45b3757c4d",
+      "content_type": "image/png",
+      "path": "images/image_1_4791_4a649fddc56b6a45b3757c4d.png"
+    },
+    {
+      "id": "1_2903_222ae5f11df7222f2f73bdf8",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/toiletries.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_2903_222ae5f11df7222f2f73bdf8",
+      "content_type": "image/png",
+      "path": "images/image_1_2903_222ae5f11df7222f2f73bdf8.png"
+    },
+    {
+      "id": "1_2904_4aec78b8b9ab078351c462ad",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/get dressed , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_2904_4aec78b8b9ab078351c462ad",
+      "content_type": "image/svg",
+      "path": "images/image_1_2904_4aec78b8b9ab078351c462ad.svg"
+    },
+    {
+      "id": "1_4792_ad2169af1b7fb18017032ddd",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/dry hair , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4792_ad2169af1b7fb18017032ddd",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4792_ad2169af1b7fb18017032ddd.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_240",
+  "locale": "en",
+  "name": "CommuniKate Personal Care",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-personal-care",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-personal-care",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-personal-care",
+    "word_suggestions": false
+  }
+}

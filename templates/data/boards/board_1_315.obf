@@ -1,0 +1,234 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 5,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3946_b5e6b38afd7859b31923f528"
+    },
+    {
+      "id": 1,
+      "label": "alcohol",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3947_1b9b2f4cf6a268785a7ca70f"
+    },
+    {
+      "id": 2,
+      "label": "beer",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_3948_62ac91f98c68a326b2054725"
+    },
+    {
+      "id": 3,
+      "label": "white wine",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5459_6a70712e1d53f8632fc94815"
+    },
+    {
+      "id": 4,
+      "label": "red wine",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5460_38ba28367312b362fb6e957d"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3946_b5e6b38afd7859b31923f528",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3946_b5e6b38afd7859b31923f528",
+      "content_type": "image/svg",
+      "path": "images/image_1_3946_b5e6b38afd7859b31923f528.svg"
+    },
+    {
+      "id": "1_3947_1b9b2f4cf6a268785a7ca70f",
+      "width": 100,
+      "height": 100,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/",
+        "source_url": "http://thenounproject.com/term/alcohol/",
+        "author_name": "Adam James",
+        "author_url": "http://thenounproject.com/ademiix"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Alcohol-267163cdf3.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3947_1b9b2f4cf6a268785a7ca70f",
+      "content_type": "image/svg",
+      "path": "images/image_1_3947_1b9b2f4cf6a268785a7ca70f.svg"
+    },
+    {
+      "id": "1_3948_62ac91f98c68a326b2054725",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/beer.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3948_62ac91f98c68a326b2054725",
+      "content_type": "image/svg",
+      "path": "images/image_1_3948_62ac91f98c68a326b2054725.svg"
+    },
+    {
+      "id": "1_5459_6a70712e1d53f8632fc94815",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/fizzy white wine made in the style of champagne.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5459_6a70712e1d53f8632fc94815",
+      "content_type": "image/png",
+      "path": "images/image_1_5459_6a70712e1d53f8632fc94815.png"
+    },
+    {
+      "id": "1_5460_38ba28367312b362fb6e957d",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/wine.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5460_38ba28367312b362fb6e957d",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5460_38ba28367312b362fb6e957d.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_315",
+  "locale": "en",
+  "name": "CommuniKate Alcohol",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-alcohol",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-alcohol",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-alcohol",
+    "word_suggestions": false
+  }
+}

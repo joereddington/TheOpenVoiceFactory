@@ -1,0 +1,467 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 16,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3303_49fb56edbe77a1310e82bfd5"
+    },
+    {
+      "id": 2,
+      "label": "Body Parts",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_272",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-parts",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-parts",
+        "path": "board_1_272.obf"
+      },
+      "image_id": "1_5062_928c32e6a73ef7e9fded923d"
+    },
+    {
+      "id": 3,
+      "label": "I feel",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(0, 255, 255)",
+      "image_id": "1_5050_37d1244425488c10c81fe1b7"
+    },
+    {
+      "id": 4,
+      "label": "headache",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3307_cac185c86e49fced85111a9e"
+    },
+    {
+      "id": 5,
+      "label": "ouch",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_11332_8ef64841000930a144112ac4"
+    },
+    {
+      "id": 6,
+      "label": "chest pain",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5063_03a78e8469b8b92b1e744fdf"
+    },
+    {
+      "id": 7,
+      "label": "earache",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5051_269b6c1e3dc190a424e612d2"
+    },
+    {
+      "id": 8,
+      "label": "sick",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5053_16f2efff530e3bd472e15435"
+    },
+    {
+      "id": 9,
+      "label": "toothache",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3310_032553a72230515922813c2d"
+    },
+    {
+      "id": 10,
+      "label": "back pain",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3311_42a0c1a147c79bd2614bfa0c"
+    },
+    {
+      "id": 11,
+      "label": "a cold",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5055_c9e5570923f7523bd460b5d2"
+    },
+    {
+      "id": 12,
+      "label": "itch",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3313_0d2c3720349b4b743e4c4143"
+    },
+    {
+      "id": 13,
+      "label": "stomach ache",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3314_03afedc8d0b0786804ab3acd"
+    },
+    {
+      "id": 14,
+      "label": "a sore throat",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5065_9de495a2e630b4d9e6f01a41"
+    },
+    {
+      "id": 15,
+      "label": "cramp",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5052_cc7a2c2e93921aed312ca69d"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        16,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        null,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        null,
+        12,
+        null
+      ],
+      [
+        13,
+        14,
+        15,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3303_49fb56edbe77a1310e82bfd5",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3303_49fb56edbe77a1310e82bfd5",
+      "content_type": "image/svg",
+      "path": "images/image_1_3303_49fb56edbe77a1310e82bfd5.svg"
+    },
+    {
+      "id": "1_5062_928c32e6a73ef7e9fded923d",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/body_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5062_928c32e6a73ef7e9fded923d",
+      "content_type": "image/png",
+      "path": "images/image_1_5062_928c32e6a73ef7e9fded923d.png"
+    },
+    {
+      "id": "1_5050_37d1244425488c10c81fe1b7",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to feel dizzy.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5050_37d1244425488c10c81fe1b7",
+      "content_type": "image/png",
+      "path": "images/image_1_5050_37d1244425488c10c81fe1b7.png"
+    },
+    {
+      "id": "1_3307_cac185c86e49fced85111a9e",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/headache.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3307_cac185c86e49fced85111a9e",
+      "content_type": "image/svg",
+      "path": "images/image_1_3307_cac185c86e49fced85111a9e.svg"
+    },
+    {
+      "id": "1_11332_8ef64841000930a144112ac4",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/hurt oneself.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_11332_8ef64841000930a144112ac4",
+      "content_type": "image/png",
+      "path": "images/image_1_11332_8ef64841000930a144112ac4.png"
+    },
+    {
+      "id": "1_5063_03a78e8469b8b92b1e744fdf",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/pain in the chest.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5063_03a78e8469b8b92b1e744fdf",
+      "content_type": "image/png",
+      "path": "images/image_1_5063_03a78e8469b8b92b1e744fdf.png"
+    },
+    {
+      "id": "1_5051_269b6c1e3dc190a424e612d2",
+      "width": 100,
+      "height": 100,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by/3.0/",
+        "source_url": "http://thenounproject.com/term/ear/",
+        "author_name": "Rémy Médard",
+        "author_url": "http://thenounproject.com/catalarem",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/noun-project/Ear-0217630c26.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5051_269b6c1e3dc190a424e612d2",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5051_269b6c1e3dc190a424e612d2.svg"
+    },
+    {
+      "id": "1_5053_16f2efff530e3bd472e15435",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/vomit , to.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5053_16f2efff530e3bd472e15435",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5053_16f2efff530e3bd472e15435.svg"
+    },
+    {
+      "id": "1_3310_032553a72230515922813c2d",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/toothache.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3310_032553a72230515922813c2d",
+      "content_type": "image/svg",
+      "path": "images/image_1_3310_032553a72230515922813c2d.svg"
+    },
+    {
+      "id": "1_3311_42a0c1a147c79bd2614bfa0c",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/back ache.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3311_42a0c1a147c79bd2614bfa0c",
+      "content_type": "image/svg",
+      "path": "images/image_1_3311_42a0c1a147c79bd2614bfa0c.svg"
+    },
+    {
+      "id": "1_5055_c9e5570923f7523bd460b5d2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/sneeze cold.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5055_c9e5570923f7523bd460b5d2",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_5055_c9e5570923f7523bd460b5d2.svg"
+    },
+    {
+      "id": "1_3313_0d2c3720349b4b743e4c4143",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/itch.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3313_0d2c3720349b4b743e4c4143",
+      "content_type": "image/svg",
+      "path": "images/image_1_3313_0d2c3720349b4b743e4c4143.svg"
+    },
+    {
+      "id": "1_3314_03afedc8d0b0786804ab3acd",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/stomach ache.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3314_03afedc8d0b0786804ab3acd",
+      "content_type": "image/svg",
+      "path": "images/image_1_3314_03afedc8d0b0786804ab3acd.svg"
+    },
+    {
+      "id": "1_5065_9de495a2e630b4d9e6f01a41",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/throat ache.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5065_9de495a2e630b4d9e6f01a41",
+      "content_type": "image/png",
+      "path": "images/image_1_5065_9de495a2e630b4d9e6f01a41.png"
+    },
+    {
+      "id": "1_5052_cc7a2c2e93921aed312ca69d",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to walk on one leg_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5052_cc7a2c2e93921aed312ca69d",
+      "content_type": "image/png",
+      "path": "images/image_1_5052_cc7a2c2e93921aed312ca69d.png"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_271",
+  "locale": "en",
+  "name": "CommuniKate Health",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-health",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-health",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-health",
+    "word_suggestions": false
+  }
+}

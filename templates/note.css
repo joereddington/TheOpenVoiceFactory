@@ -18,3 +18,13 @@ td {
 
     border-top: 20px solid transparent;
 } /* </magic> */
+
+.error {
+    max-width: 800px;
+    background-color: #F00;
+    padding: 10px;
+    color: #Fff;
+    font-weight: bold;
+    margin: 10px 0;
+    display: none;
+}

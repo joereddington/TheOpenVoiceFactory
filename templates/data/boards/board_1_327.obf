@@ -1,0 +1,476 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 16,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_4086_31ea50175cc0c9360db10676"
+    },
+    {
+      "id": 1,
+      "label": "wild animal",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5431_eeadab2cc72116d9d568b0b9"
+    },
+    {
+      "id": 2,
+      "label": "zebra",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4088_ac6d2bc271642dfc1ac6b2a2"
+    },
+    {
+      "id": 3,
+      "label": "snake",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4089_e39acc2bf3d4e322af5184ac"
+    },
+    {
+      "id": 4,
+      "label": "monkey",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5432_20af9cee1636317bc6254dfe"
+    },
+    {
+      "id": 5,
+      "label": "bear",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4091_2ea7884311f6e723a2d59a88"
+    },
+    {
+      "id": 6,
+      "label": "camel",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4092_3426275f0aad5da177877d27"
+    },
+    {
+      "id": 7,
+      "label": "cheetah",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4093_75af59e2388bcb751718cd76"
+    },
+    {
+      "id": 8,
+      "label": "deer",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4094_a0cd97b886435c5377026c60"
+    },
+    {
+      "id": 9,
+      "label": "elephant",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4095_a41231626676a711fc643066"
+    },
+    {
+      "id": 10,
+      "label": "giraffe",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4096_e7f55a46a7a985e9e2510720"
+    },
+    {
+      "id": 11,
+      "label": "gorilla",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4097_ce08d6a38e7a24768bec5a7c"
+    },
+    {
+      "id": 12,
+      "label": "hippo",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_5433_7911d7c4bc5454081de40625"
+    },
+    {
+      "id": 13,
+      "label": "lion",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4099_7e53c0e2907b426526dcdb2c"
+    },
+    {
+      "id": 14,
+      "label": "tiger",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4100_ad0b4a029eb27998ddf759f9"
+    },
+    {
+      "id": 15,
+      "label": "rhinoceros",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "image_id": "1_4101_d2a40eebf1709ffb59b7c708"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        16,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_4086_31ea50175cc0c9360db10676",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4086_31ea50175cc0c9360db10676",
+      "content_type": "image/svg",
+      "path": "images/image_1_4086_31ea50175cc0c9360db10676.svg"
+    },
+    {
+      "id": "1_5431_eeadab2cc72116d9d568b0b9",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/wild.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5431_eeadab2cc72116d9d568b0b9",
+      "content_type": "image/png",
+      "path": "images/image_1_5431_eeadab2cc72116d9d568b0b9.png"
+    },
+    {
+      "id": "1_4088_ac6d2bc271642dfc1ac6b2a2",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/zebra.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4088_ac6d2bc271642dfc1ac6b2a2",
+      "content_type": "image/svg",
+      "path": "images/image_1_4088_ac6d2bc271642dfc1ac6b2a2.svg"
+    },
+    {
+      "id": "1_4089_e39acc2bf3d4e322af5184ac",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/snake.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4089_e39acc2bf3d4e322af5184ac",
+      "content_type": "image/svg",
+      "path": "images/image_1_4089_e39acc2bf3d4e322af5184ac.svg"
+    },
+    {
+      "id": "1_5432_20af9cee1636317bc6254dfe",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/monkey.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5432_20af9cee1636317bc6254dfe",
+      "content_type": "image/png",
+      "path": "images/image_1_5432_20af9cee1636317bc6254dfe.png"
+    },
+    {
+      "id": "1_4091_2ea7884311f6e723a2d59a88",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/bear.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4091_2ea7884311f6e723a2d59a88",
+      "content_type": "image/svg",
+      "path": "images/image_1_4091_2ea7884311f6e723a2d59a88.svg"
+    },
+    {
+      "id": "1_4092_3426275f0aad5da177877d27",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/camel.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4092_3426275f0aad5da177877d27",
+      "content_type": "image/svg",
+      "path": "images/image_1_4092_3426275f0aad5da177877d27.svg"
+    },
+    {
+      "id": "1_4093_75af59e2388bcb751718cd76",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/cheetah.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4093_75af59e2388bcb751718cd76",
+      "content_type": "image/svg",
+      "path": "images/image_1_4093_75af59e2388bcb751718cd76.svg"
+    },
+    {
+      "id": "1_4094_a0cd97b886435c5377026c60",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/deer.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4094_a0cd97b886435c5377026c60",
+      "content_type": "image/svg",
+      "path": "images/image_1_4094_a0cd97b886435c5377026c60.svg"
+    },
+    {
+      "id": "1_4095_a41231626676a711fc643066",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/elephant.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4095_a41231626676a711fc643066",
+      "content_type": "image/svg",
+      "path": "images/image_1_4095_a41231626676a711fc643066.svg"
+    },
+    {
+      "id": "1_4096_e7f55a46a7a985e9e2510720",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/giraffe.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4096_e7f55a46a7a985e9e2510720",
+      "content_type": "image/svg",
+      "path": "images/image_1_4096_e7f55a46a7a985e9e2510720.svg"
+    },
+    {
+      "id": "1_4097_ce08d6a38e7a24768bec5a7c",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/gorilla.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4097_ce08d6a38e7a24768bec5a7c",
+      "content_type": "image/svg",
+      "path": "images/image_1_4097_ce08d6a38e7a24768bec5a7c.svg"
+    },
+    {
+      "id": "1_5433_7911d7c4bc5454081de40625",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/hippopotamus.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5433_7911d7c4bc5454081de40625",
+      "content_type": "image/png",
+      "path": "images/image_1_5433_7911d7c4bc5454081de40625.png"
+    },
+    {
+      "id": "1_4099_7e53c0e2907b426526dcdb2c",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/lion.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4099_7e53c0e2907b426526dcdb2c",
+      "content_type": "image/svg",
+      "path": "images/image_1_4099_7e53c0e2907b426526dcdb2c.svg"
+    },
+    {
+      "id": "1_4100_ad0b4a029eb27998ddf759f9",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/tiger.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4100_ad0b4a029eb27998ddf759f9",
+      "content_type": "image/svg",
+      "path": "images/image_1_4100_ad0b4a029eb27998ddf759f9.svg"
+    },
+    {
+      "id": "1_4101_d2a40eebf1709ffb59b7c708",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/rhinoceros.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4101_d2a40eebf1709ffb59b7c708",
+      "content_type": "image/svg",
+      "path": "images/image_1_4101_d2a40eebf1709ffb59b7c708.svg"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_327",
+  "locale": "en",
+  "name": "CommuniKate Wild Animals",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-wild-animals",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-wild-animals",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-wild-animals",
+    "word_suggestions": false
+  }
+}

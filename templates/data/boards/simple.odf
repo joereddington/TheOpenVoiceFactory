@@ -1,0 +1,38 @@
+{
+  "format": "open-board-0.1",
+  "id": "1",
+  "locale": "en",
+  "url": "http://www.myaacapp.com/boards/123",
+  "name": "Example Board",
+  "description_html": "This is just a <b>simple</b> example board I put together.",
+  "buttons": [
+    {
+      "id": "1",
+      "image_id": "2",
+      "label": "happy",
+      "border_color": "rgb(0, 0, 55)",
+      "background_color": "rgba(200, 255, 255, 0.2)"
+    },
+    {
+      "id": "2",
+      "label": "drinks",
+      "image_id": "2"
+    },
+  ],
+  "grid": {
+    "rows": 1,
+    "columns": 2,
+    "order": [
+      ["1","2"]
+    ]
+  },
+  "images": [
+    {
+      "id": "1",
+      "url": "http://cdn.myaacapp.com/happy.png",
+      "width": 1024,
+      "height": 768,
+      "content_type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[{
+  "format": "open-board-0.1",
+  "id": "test-2",
+  "locale": "en",
+  "name": "Invalid No Label",
+  "ext_speaker_url": "http://www.example.com/mylink",
+  "description_html": "An invalid test board with a button with no label",
+  "grid": {
+    "rows": 1,
+    "columns": 1,
+    "order": [
+      ["T1"]
+    ]
+  },
+  "buttons": [
+    {
+      "id": "T1"
+    }
+  ]
+}]

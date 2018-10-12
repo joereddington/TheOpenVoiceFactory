@@ -1,0 +1,503 @@
+{
+  "format": "open-board-0.1",
+  "license": {
+    "type": "CC By-NC-SA",
+    "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "author_name": "Kate McCallum",
+    "author_url": "https://twitter.com/KateMcCallumuk"
+  },
+  "buttons": [
+    {
+      "id": 18,
+      "label": "Top Page",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 255, 50)",
+      "load_board": {
+        "id": "1_235",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-top-page",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-top-page",
+        "path": "board_1_235.obf"
+      },
+      "image_id": "1_3814_4ad6f0a2a036df3842ac031b"
+    },
+    {
+      "id": 1,
+      "label": "Hello! I use a communication aid to speak, please give me time to generate what I need to say.",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3815_0eebd82b1315d806fb6a8052"
+    },
+    {
+      "id": 2,
+      "label": "Chatting",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "load_board": {
+        "id": "1_236",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-chatting",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-chatting",
+        "path": "board_1_236.obf"
+      },
+      "image_id": "1_5462_5925c06b788cd1f6fe00551d"
+    },
+    {
+      "id": 4,
+      "label": "Questions",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 124, 33)",
+      "load_board": {
+        "id": "1_237",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-questions",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-questions",
+        "path": "board_1_237.obf"
+      },
+      "image_id": "1_5463_e9b084989c287d97d7f43871"
+    },
+    {
+      "id": 5,
+      "label": "call me",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5464_cc15d046c2168b70cbcecbf7"
+    },
+    {
+      "id": 6,
+      "label": "I need to check my credit.",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5465_1f702edcbe516fcab11c425f"
+    },
+    {
+      "id": 8,
+      "label": "People",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(191, 140, 30)",
+      "load_board": {
+        "id": "1_239",
+        "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-people",
+        "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-people",
+        "path": "board_1_239.obf"
+      },
+      "image_id": "1_5466_c4c2460978c4c4055893e3d3"
+    },
+    {
+      "id": 9,
+      "label": "speak soon",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5467_e40959600e00121a7bb2da8f"
+    },
+    {
+      "id": 10,
+      "label": "take care",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3824_a9b9f24d322fd3f5119e0ee8"
+    },
+    {
+      "id": 11,
+      "label": "I need to charge my phone",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5468_48e9a38cdd39c64ba621eed2"
+    },
+    {
+      "id": 12,
+      "label": "When will I see you?",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(255, 124, 33)",
+      "image_id": "1_5469_b2c8b4c3c3ca62330f5172f2"
+    },
+    {
+      "id": 13,
+      "label": "Tell me your news",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5470_3bb0d9dcae56feab84fac67b"
+    },
+    {
+      "id": 14,
+      "label": "I miss you",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5471_c3fbb15ea6ce980046703030"
+    },
+    {
+      "id": 15,
+      "label": "Happy Birthday",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5472_9f4e4c05411e40b877c20786"
+    },
+    {
+      "id": 16,
+      "label": "Get well soon",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_5473_e549e98583860ff5d3736f1c"
+    },
+    {
+      "id": 17,
+      "label": "Congratulations",
+      "border_color": "rgb(68, 68, 68)",
+      "background_color": "rgb(192, 192, 192)",
+      "image_id": "1_3831_548bb43ab6809e3fdb7b9b0e"
+    },
+    {
+      "id": "b1",
+      "label": "yes",
+      "border_color": "rgb(83, 255, 71)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4251_1cffb328fb376157fa98278f"
+    },
+    {
+      "id": "b2",
+      "label": "no",
+      "border_color": "rgb(255, 0, 0)",
+      "background_color": "rgb(255, 255, 255)",
+      "image_id": "1_4252_c272cb253e56667735ca6759"
+    }
+  ],
+  "grid": {
+    "rows": 5,
+    "columns": 5,
+    "order": [
+      [
+        "b1",
+        null,
+        null,
+        null,
+        "b2"
+      ],
+      [
+        18,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        6,
+        8,
+        null,
+        9,
+        10
+      ],
+      [
+        11,
+        null,
+        null,
+        12,
+        null
+      ],
+      [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "1_4251_1cffb328fb376157fa98278f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/yes_2.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4251_1cffb328fb376157fa98278f",
+      "content_type": "image/png",
+      "path": "images/image_1_4251_1cffb328fb376157fa98278f.png"
+    },
+    {
+      "id": "1_4252_c272cb253e56667735ca6759",
+      "width": 851,
+      "height": 851,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/mistake no wrong.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_4252_c272cb253e56667735ca6759",
+      "content_type": "image/svg+xml",
+      "path": "images/image_1_4252_c272cb253e56667735ca6759.svg"
+    },
+    {
+      "id": "1_3814_4ad6f0a2a036df3842ac031b",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid 2.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3814_4ad6f0a2a036df3842ac031b",
+      "content_type": "image/svg",
+      "path": "images/image_1_3814_4ad6f0a2a036df3842ac031b.svg"
+    },
+    {
+      "id": "1_3815_0eebd82b1315d806fb6a8052",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/communication aid listen to me.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3815_0eebd82b1315d806fb6a8052",
+      "content_type": "image/svg",
+      "path": "images/image_1_3815_0eebd82b1315d806fb6a8052.svg"
+    },
+    {
+      "id": "1_5462_5925c06b788cd1f6fe00551d",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/chat_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5462_5925c06b788cd1f6fe00551d",
+      "content_type": "image/png",
+      "path": "images/image_1_5462_5925c06b788cd1f6fe00551d.png"
+    },
+    {
+      "id": "1_5463_e9b084989c287d97d7f43871",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/question mark.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5463_e9b084989c287d97d7f43871",
+      "content_type": "image/png",
+      "path": "images/image_1_5463_e9b084989c287d97d7f43871.png"
+    },
+    {
+      "id": "1_5464_cc15d046c2168b70cbcecbf7",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/call.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5464_cc15d046c2168b70cbcecbf7",
+      "content_type": "image/png",
+      "path": "images/image_1_5464_cc15d046c2168b70cbcecbf7.png"
+    },
+    {
+      "id": "1_5465_1f702edcbe516fcab11c425f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/money.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5465_1f702edcbe516fcab11c425f",
+      "content_type": "image/png",
+      "path": "images/image_1_5465_1f702edcbe516fcab11c425f.png"
+    },
+    {
+      "id": "1_5466_c4c2460978c4c4055893e3d3",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/group of people.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5466_c4c2460978c4c4055893e3d3",
+      "content_type": "image/png",
+      "path": "images/image_1_5466_c4c2460978c4c4055893e3d3.png"
+    },
+    {
+      "id": "1_5467_e40959600e00121a7bb2da8f",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/speak on the phone_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5467_e40959600e00121a7bb2da8f",
+      "content_type": "image/png",
+      "path": "images/image_1_5467_e40959600e00121a7bb2da8f.png"
+    },
+    {
+      "id": "1_3824_a9b9f24d322fd3f5119e0ee8",
+      "width": 850,
+      "height": 850,
+      "license": {
+        "type": "CC BY-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-sa/2.0/uk",
+        "author_name": "Paxtoncrafts Charitable Trust ",
+        "author_url": "http://straight-street.org/lic.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/mulberry/care assistant 1a.svg",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3824_a9b9f24d322fd3f5119e0ee8",
+      "content_type": "image/svg",
+      "path": "images/image_1_3824_a9b9f24d322fd3f5119e0ee8.svg"
+    },
+    {
+      "id": "1_5468_48e9a38cdd39c64ba621eed2",
+      "width": 283,
+      "height": 283,
+      "license": {
+        "type": "CC BY-NC",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc/2.0/",
+        "author_name": "Sclera",
+        "author_url": "http://www.sclera.be/en/picto/copyright",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/sclera/plug in power outlet.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5468_48e9a38cdd39c64ba621eed2",
+      "content_type": "image/png",
+      "path": "images/image_1_5468_48e9a38cdd39c64ba621eed2.png"
+    },
+    {
+      "id": "1_5469_b2c8b4c3c3ca62330f5172f2",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/can you see it_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5469_b2c8b4c3c3ca62330f5172f2",
+      "content_type": "image/png",
+      "path": "images/image_1_5469_b2c8b4c3c3ca62330f5172f2.png"
+    },
+    {
+      "id": "1_5470_3bb0d9dcae56feab84fac67b",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/tell.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5470_3bb0d9dcae56feab84fac67b",
+      "content_type": "image/png",
+      "path": "images/image_1_5470_3bb0d9dcae56feab84fac67b.png"
+    },
+    {
+      "id": "1_5471_c3fbb15ea6ce980046703030",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/to miss_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5471_c3fbb15ea6ce980046703030",
+      "content_type": "image/png",
+      "path": "images/image_1_5471_c3fbb15ea6ce980046703030.png"
+    },
+    {
+      "id": "1_5472_9f4e4c05411e40b877c20786",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/Happy Birthday!_1.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5472_9f4e4c05411e40b877c20786",
+      "content_type": "image/png",
+      "path": "images/image_1_5472_9f4e4c05411e40b877c20786.png"
+    },
+    {
+      "id": "1_5473_e549e98583860ff5d3736f1c",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php",
+        "uneditable": true
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/care for.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_5473_e549e98583860ff5d3736f1c",
+      "content_type": "image/png",
+      "path": "images/image_1_5473_e549e98583860ff5d3736f1c.png"
+    },
+    {
+      "id": "1_3831_548bb43ab6809e3fdb7b9b0e",
+      "width": 250,
+      "height": 250,
+      "license": {
+        "type": "CC BY-NC-SA",
+        "copyright_notice_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "author_name": "Sergio Palao",
+        "author_url": "http://www.catedu.es/arasaac/condiciones_uso.php"
+      },
+      "url": "https://s3.amazonaws.com/opensymbols/libraries/arasaac/congratulations.png",
+      "data_url": "https://www.mycoughdrop.com/api/v1/images/1_3831_548bb43ab6809e3fdb7b9b0e",
+      "content_type": "image/png",
+      "path": "images/image_1_3831_548bb43ab6809e3fdb7b9b0e.png"
+    }
+  ],
+  "sounds": [
+
+  ],
+  "id": "1_303",
+  "locale": "en",
+  "name": "CommuniKate Phone",
+  "default_layout": "landscape",
+  "url": "https://www.mycoughdrop.com/kate-mccallum/communikate-phone",
+  "data_url": "https://www.mycoughdrop.com/api/v1/boards/kate-mccallum/communikate-phone",
+  "description_html": "built with CoughDrop",
+  "ext_coughdrop_settings": {
+    "private": false,
+    "key": "kate-mccallum/communikate-phone",
+    "word_suggestions": false
+  }
+}

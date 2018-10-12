@@ -1,0 +1,27 @@
+[{
+	"format": "open-board-0.1",
+	"id": "test-1",
+	"locale": "en",
+	"name": "invalid single cell board",
+	"ext_speaker_url": "http://www.example.com/mylink",
+	"description_html": "An invalid test board with an incorrect sound id",
+	"grid": {
+		"rows": 1,
+		"columns": 1,
+		"order": [
+			["T1"]
+		]
+	},
+	"buttons": [{
+		"id": "T1",
+		"label": "Testing",
+        "sound_id": "s1"
+	}],
+    "sounds": [
+	{
+      "id": "s1",
+      "url": "http://soundbible.com/grab.php?id=132&type=mp3",
+      "duration": 2,
+      "content_type": "audio/mp3"
+    }]       
+}]
