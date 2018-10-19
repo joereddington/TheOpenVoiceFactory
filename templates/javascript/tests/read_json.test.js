@@ -104,6 +104,29 @@ describe('Comscan', function() {
 			});	
 
 
+	describe("Load Simple OBF file", function() {
+		beforeEach(function(done){
+			// You can call any async task, when done() is called the test will begin
+			manifest=""
+			load_manifest("http://localhost:9876/base/tests/testinputs/manifest.json");
+			setTimeout(() => {done();}, 100); 
+		}); 
+		
+		
+		it('We can get a manifest file', function(done) {
+			expect(manifest.length).not.toBeLessThan(1)
+			setTimeout(done(),2000)
+			});			
+
+		
+		it('Check manifest file reads correctly', function(done) {
+			console.log(manifest);
+			expect(manifest['format']).toBe("open-board-0.1")
+			setTimeout(done(),2000)
+			});			
+			});	
+
+
 
 //Keep for the spy snippet 
 //it('Speak function is triggered...', function() {
