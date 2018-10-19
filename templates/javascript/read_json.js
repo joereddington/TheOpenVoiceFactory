@@ -30,6 +30,24 @@ function setupInternalDataStructures(responseText){
 function load_obf_page(url){
 load_json_file(url, parseobf)
 
+}
+
+function obfadd(x, y){
+
+console.log("Here")
+console.log(currentpage.grid.order) 
+console.log(currentpage.grid.order[x][y]) 
+
+for (index =0; index<currentpage.buttons.length;index++){
+	console.log("here"+currentpage.buttons[index].id);
+	console.log("We compare: x"+(currentpage.buttons[index].id)+"x and "+parseInt(currentpage.grid.order[x][y]))
+	if (parseInt(currentpage.buttons[index].id)==parseInt(currentpage.grid.order[x][y]))
+		{return currentpage.buttons[index] }
+}
+
+return null
+
+
 
 }
 
@@ -188,6 +206,7 @@ function append(text) {
 	document.getElementById("messagewindow").value+= " " +text;
     }
 }
+
 
 function add(i, j) {
     if (links[key][i][j] == "") {

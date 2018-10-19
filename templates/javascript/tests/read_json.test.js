@@ -119,6 +119,18 @@ describe('Comscan', function() {
 			});			
 
 		
+		it('Check the number of columns', function(done) {
+			expect(currentpage.grid.columns).toBe(5)
+			setTimeout(done(),2000)
+			});			
+
+		
+		it('Work out the grid', function(done) {
+			expect(obfadd(3,3).label).toBe("Describing")
+			setTimeout(done(),2000)
+			});			
+
+		
 			});	
 	
 
