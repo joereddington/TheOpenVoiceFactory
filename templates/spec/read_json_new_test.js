@@ -1,5 +1,5 @@
 /*
- * Write unit test cases for refecotor read_json.js file
+ * Write unit test cases for refactoring read_json.js file
  * Unit tests for javascript using Jasmine and Karma
  *
  * Author: Joe
@@ -44,27 +44,93 @@ describe("Reading OBF Data into local data structures", function() {
       let fileName = "test-2.obf";
 
       myFunctionThatMakesRequests(fileName, function(error, data) {
-        const Board = new Setup(data);
+        let filterData = JSON.parse(data);
 
-        expect(Board.obfInput[0].format).toBe("open-board-0.1");
+        let jsondata = JSON.stringify(filterData[0]);
+
+        const Board = new Setup(jsondata);
+
+        expect(Board.obfInput.format).toBe("open-board-0.1");
 
         doneFn();
       });
     });
 
-    it('Parse JSON correctly and validate JSON format it should throw error message when format is incorrect', function(doneFn) {
+    it("Parse JSON correctly and validate JSON format it should throw error message when format is incorrect", function(doneFn) {
       let fileName = "test-3.obf";
 
       myFunctionThatMakesRequests(fileName, function(error, data) {
-        const Board = new Setup(data);
+        let filterData = JSON.parse(data);
+
+        let jsondata = JSON.stringify(filterData[0]);
+
+        const Board = new Setup(jsondata);
+
+        Board.load();
 
         const parseJSON = function() {
-            if (Board.error) {
-                throw Board.error;
-            }
+          if (Board.error) {
+            throw Board.error;
+          }
         };
 
-        expect(parseJSON).toThrow("Invalid JSON format");
+        expect(parseJSON).toThrow("Invalid format");
+
+        doneFn();
+      });
+    });
+  });
+
+  describe("Test Name property", function() {
+    let originalTimeout;
+
+    beforeEach(function() {
+      originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+      jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
+    });
+
+    afterEach(function() {
+      jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
+    });
+
+    it('The key variable should be equals to "valid single cell board"', function(doneFn) {
+      let fileName = "test-7.obf";
+
+      myFunctionThatMakesRequests(fileName, function(error, data) {
+        let filterData = JSON.parse(data);
+
+        let jsondata = JSON.stringify(filterData[0]);
+
+        const Board = new Setup(jsondata);
+
+        Board.load();
+
+        expect(Board.key).toBe("valid single cell board");
+
+        doneFn();
+      });
+    });
+
+    it('If the obf file does not have a "name" property it should throw error', function(doneFn) {
+      var fileName = "test-2.obf";
+
+      // Read data from file
+      myFunctionThatMakesRequests(fileName, function(error, data) {
+        let filterData = JSON.parse(data);
+
+        let jsondata = JSON.stringify(filterData[0]);
+
+        const Board = new Setup(jsondata);
+
+        Board.load();
+
+        var buttonLableFun = function() {
+          if (Board.error) {
+            throw Board.error;
+          }
+        };
+
+        expect(buttonLableFun).toThrow("No page name defined");
 
         doneFn();
       });
