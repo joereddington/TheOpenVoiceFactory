@@ -26,7 +26,22 @@ function setupInternalDataStructures(responseText){
 
 }
 
-function load_manifest(filename){
+
+function load_obf_page(url){
+load_json_file(url, parseobf)
+
+
+}
+
+
+currentpage=""
+function parseobf(obf)
+{
+currentpage=obf;
+}
+
+
+function load_json_file(filename, callbackfunction){
 	//go and get a manifest. We're starting with the one in the root of the template for now.
 	  var req = new XMLHttpRequest();
           console.log("a"); 
@@ -39,6 +54,7 @@ function load_manifest(filename){
            console.log("hello"); 
            console.log(req.responseText); 
            manifest= JSON.parse(req.responseText);
+	   callbackfunction(manifest)
         } else {
             console.log("Problem reading file");
         }
