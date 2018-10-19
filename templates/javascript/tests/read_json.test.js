@@ -15,24 +15,6 @@ describe('Comscan', function() {
     });
 
 
-    // call the init function of calculator to register DOM elements
-
-
-// # List of tests 
-// * Can you fetch an object from a json file? 
-// - When loading the first page. Do a selection of the right squares have the correct message in them?
-// - When pressing a particular button, does the message window change appropriately 
-// - Does the 'clear' function work when triggered? 
-// * Do two-part functions trigger at the right time? 
-//
-// That should be enought to get started.
-//
-//
-
-
-//List of todos: 
-// We should seperate the click event so that there is a function that takes a pixel x,y, a function that takes a normalised x,y for the grid, and one that takes the information converted into a grid reference
-
 // * Does that object have the right number of slides in it. 
     it('We can parse an example json document', function() {
         setupInternalDataStructures(sample);	
@@ -99,6 +81,35 @@ describe('Comscan', function() {
     });
 
 
+	describe("Manifest testing", function() {
+		beforeEach(function(done){
+			// You can call any async task, when done() is called the test will begin
+			manifest=""
+			load_manifest("http://localhost:9876/base/tests/testinputs/manifest.json");
+			setTimeout(() => {done();}, 100); 
+		}); 
+		
+		
+		it('We can get a manifest file', function(done) {
+			for (var file in window.__karma__.files) {
+			  console.log(file)
+			}
+			console.log(window.location.pathname);
+			console.log("1")
+			
+			console.log("2")
+			console.log(manifest.length)
+			expect(manifest.length).not.toBeLessThan(1)
+			console.log("3")
+			console.log(manifest.length)
+			console.log(manifest);
+			setTimeout(done(),2000)
+			});			
+			});	
+
+
+
+//Keep for the spy snippet 
 //it('Speak function is triggered...', function() {
  //       spyOn(window, "say");
   //      expect(think).toHaveBeenCalled();
