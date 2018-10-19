@@ -91,18 +91,14 @@ describe('Comscan', function() {
 		
 		
 		it('We can get a manifest file', function(done) {
-			for (var file in window.__karma__.files) {
-			  console.log(file)
-			}
-			console.log(window.location.pathname);
-			console.log("1")
-			
-			console.log("2")
-			console.log(manifest.length)
 			expect(manifest.length).not.toBeLessThan(1)
-			console.log("3")
-			console.log(manifest.length)
+			setTimeout(done(),2000)
+			});			
+
+		
+		it('Check manifest file reads correctly', function(done) {
 			console.log(manifest);
+			expect(manifest['format']).toBe("open-board-0.1")
 			setTimeout(done(),2000)
 			});			
 			});	
