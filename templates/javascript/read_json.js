@@ -1,3 +1,102 @@
+manifest = ""
+currentpage = ""
+
+
+function get_obf_button(x, y) {
+    for (index = 0; index < currentpage.buttons.length; index++) {
+        if (currentpage.buttons[index].id == currentpage.grid.order[x][y]) {
+            return currentpage.buttons[index]
+        }
+    }
+    return null
+
+}
+
+
+function parseobf(input_data_structure) {
+    console.log("Parsing!")
+    currentpage = input_data_structure;
+    grid_size_rows = currentpage.grid.order.length;
+    grid_size_columns = currentpage.grid.order.length;
+    setupMessageWindow()
+    setup_table()
+    for (x = 0; x < grid_size_rows; x++) {
+        for (y = 0; y < grid_size_rows; y++) {
+            try {
+                if (!get_obf_button(x, y)) {
+                    compute_cell(x, y).html("")
+                } else {
+                    var image_html = "<IMG src=\"" + get_obf_button(x, y)["image_id"] + "\" class=\"" + get_size_class() + "\">";
+                    compute_cell(x, y).html("<b>" + get_obf_button(x, y).label + "</b><br>" + image_html);
+
+                    if (get_obf_button(x, y).label == "") {
+                        compute_cell(x, y).html("")
+                    }
+                    compute_cell(x, y).css('background-color', get_obf_button(x, y)["background_color"])
+                    compute_cell(x, y).removeClass('note')
+                    if ("load_board" in get_obf_button(x, y)) {
+                        compute_cell(x, y).addClass('note')
+                    }
+                }
+            } catch (err) {
+                alert("There has been an exception: " + err.message)
+            }
+        }
+    }
+}
+
+
+
+
+function we_are_using_obf() {
+    if (manifest['format'] == "open-board-0.1") {
+        return true
+    } else {
+        return false
+    }
+}
+
+function parse_manifest(manifest_content) {
+    console.log("Parse manifest is called")
+    manifest = manifest_content
+    if (we_are_using_obf()) {
+        load_json_file("data/" + manifest['root'],parseobf)
+    } else {
+        //check for the other format and proceed or raise an error
+
+    }
+}
+
+function obf_add(i, j) {
+    if ("load_board" in get_obf_button(i, j)) {
+        load_json_file("data/" + get_obf_button(i, j)["load_board"]["path"], parseobf)
+    } else {
+        append(get_obf_button(i, j).label);
+    }
+}
+
+function load_json_file(filename, callbackfunction) {
+    //go and get a manifest. We're starting with the one in the root of the template for now.
+    var req = new XMLHttpRequest();
+    req.open("GET", filename);
+    req.send(null);
+    console.log("Here in load json file " + filename +callbackfunction)
+    req.onreadystatechange = function() {
+
+        if (req.readyState == 4 && req.status == 200) {
+            console.log("found it")
+            response = JSON.parse(req.responseText);
+            callbackfunction(response)
+        } else {}
+    };
+}
+
+
+
+function startprime() {
+    load_json_file("data/manifest.json", parse_manifest)
+}
+
 function setupInternalDataStructures(responseText) {
     key = "toppage";
     utterances = {};
@@ -24,109 +123,7 @@ function setupInternalDataStructures(responseText) {
 }
 
 
-function load_obf_page(url) {
-    load_json_file(url, parseobf)
 
-}
-
-function obfadd(x, y) {
-    for (index = 0; index < currentpage.buttons.length; index++) {
-        if (parseInt(currentpage.buttons[index].id) == parseInt(currentpage.grid.order[x][y])) {
-            return currentpage.buttons[index]
-        }
-    }
-    return null
-
-}
-
-manifest = ""
-currentpage = ""
-
-function parseobf(obf) {
-    console.log("Parsing!")
-    currentpage = obf;
-    grid_size_rows = currentpage.grid.order.length;
-    grid_size_columns = currentpage.grid.order.length;
-    setupMessageWindow()
-    setup_table()
-    for (x = 0; x < grid_size_rows; x++) {
-        for (y = 0; y < grid_size_rows; y++) {
-	    console.log("Entering loop with X and Y of"+x+" "+y)
-            try {
-                if (!obfadd(x, y)) {
-                    compute_cell(x, y).html("")
-                } else {
-                    var image_html = "<IMG src=\"" + obfadd(x, y)["image_id"] + "\" class=\"" + get_size_class() + "\">";
-                    compute_cell(x, y).html("<b>" + obfadd(x, y).label + "</b><br>" + image_html);
-
-                    if (obfadd(x, y).label == "") {
-                        compute_cell(x, y).html("")
-                    }
-                    compute_cell(x, y).css('background-color', obfadd(x, y)["background_color"])
-                    compute_cell(x, y).removeClass('note')
-                    if ("load_board" in obfadd(x, y)) {
-                        compute_cell(x, y).addClass('note')
-                    }
-                }
-            } catch (err) {
-                alert("There has been an exception: " + err.message)
-            }
-        }
-    }
-console.log("End of parseobf")
-}
-
-
-
-
-function obf_internal() {
-    console.log("checking for manifest")
-    console.log(manifest)
-    if (manifest['format'] == "open-board-0.1") {
-        return true
-    } else {
-        return false
-    }
-}
-
-function parse_manifest(manifest_content) {
-    console.log("Parse manifest is called")
-    //Input is structured data from the json file
-    manifest = manifest_content
-    grid_size_rows = 5;
-    grid_size_columns = 5;
-    if (obf_internal()) {
-        load_obf_page("data/" + manifest['root'])
-    } else {
-        //check for the other format and proceed or raise an error
-
-    }
-
-
-}
-
-
-function load_json_file(filename, callbackfunction) {
-    //go and get a manifest. We're starting with the one in the root of the template for now.
-    var req = new XMLHttpRequest();
-    req.open("GET", filename);
-    req.send(null);
-    console.log("Here in load json file " + filename +callbackfunction)
-    req.onreadystatechange = function() {
-
-        if (req.readyState == 4 && req.status == 200) {
-            console.log("found it")
-            response = JSON.parse(req.responseText);
-            callbackfunction(response)
-        } else {}
-    };
-}
-
-
-
-function startprime() {
-    load_json_file("data/manifest.json", parse_manifest)
-}
 
 function start() {
     var req = new XMLHttpRequest();
@@ -259,23 +256,9 @@ function append(text) {
 }
 
 
-function obf_add(i, j) {
-    console.log("in obf_add")
-
-    if ("load_board" in obfadd(i, j)) {
-
-        load_json_file("data/" + obfadd(i, j)["load_board"]["path"], parseobf)
-
-
-    } else {
-        append(obfadd(i, j).label);
-    }
-
-}
-
 function add(i, j) {
     console.log("In add")
-    if (obf_internal()) {
+    if (we_are_using_obf()) {
 
         console.log("Making a turn")
         obf_add(j, i)
