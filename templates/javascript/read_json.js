@@ -224,8 +224,15 @@ function append(text) {
 function obf_add(i,j)
 {
 console.log("in obf_add")
-append(obfadd(i,j).label);
 
+if ("load_board" in obfadd(i,j)){
+
+load_json_file(obfadd(i,j)["load_board"]["path"], parseobf)
+
+
+}else{
+	append(obfadd(i,j).label);
+}
 
 }
 
@@ -235,7 +242,7 @@ if (obf_internal())
 {
 
 console.log("Making a turn")
-obf_add(i,j)
+obf_add(j,i)
 return
 }
 

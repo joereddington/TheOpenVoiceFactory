@@ -150,23 +150,34 @@
 	done()
     });
 
+
+
+    describe("Checking links", function (){ 
+
+	beforeEach(function(done){
+	add(1,2)
+
+         setTimeout(() => {
+             done();
+         }, 1000);
+     });
+
+      it('Links work ', function(done) {
+        expect(currentpage.id).toBe("people");
+	done()
+    });
+});
+
+
  });
  
  
 
 
 
-  
-//
-//    it('clear function works', function() {
-//        expect(document.getElementById("messagewindow").value).toBe("");
-//        add(1, 1);
-//        expect(document.getElementById("messagewindow").value).toBe(" I want to talk to you.");
-//        add(0, 4);
-//        expect(document.getElementById("messagewindow").value).toBe("");
-//	done()
-//    });
-//
+
+
+   //
 //
 //    it('clear function works', function() {
 //        expect(document.getElementById("messagewindow").value).toBe("");
