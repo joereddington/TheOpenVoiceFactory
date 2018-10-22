@@ -21,7 +21,9 @@ module.exports = function(config) {
 	{pattern: 'tests/testinputs/boards/*.obf', included: false}
     ],
 
-
+    proxies:{
+"/": "/base/tests/testinputs/"
+},
     // list of files to exclude
     exclude: [
       'n'

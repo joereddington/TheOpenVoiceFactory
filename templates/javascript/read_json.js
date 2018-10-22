@@ -61,7 +61,7 @@ currentpage=obf;
 function parse_manifest(manifest_content){
 //Input is structured data from the json file
 if(manifest['format']=="open-board-0.1"){
-load_obf_page("/base/tests/testinputs/"+manifest['root'])
+load_obf_page(manifest['root'])
 }
 else{
 //check for the other format and proceed or raise an error
