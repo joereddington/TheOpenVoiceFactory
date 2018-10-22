@@ -22,6 +22,7 @@ module.exports = function(config) {
     ],
 
     proxies:{
+"/data/": "/base/tests/testinputs/",
 "/": "/base/tests/testinputs/"
 },
     // list of files to exclude

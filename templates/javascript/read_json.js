@@ -73,6 +73,7 @@ function parseobf(obf) {
             }
         }
     }
+console.log("End of parseobf")
 }
 
 
@@ -110,7 +111,7 @@ function load_json_file(filename, callbackfunction) {
     var req = new XMLHttpRequest();
     req.open("GET", filename);
     req.send(null);
-    console.log("Here in load json file " + filename)
+    console.log("Here in load json file " + filename +callbackfunction)
     req.onreadystatechange = function() {
 
         if (req.readyState == 4 && req.status == 200) {
