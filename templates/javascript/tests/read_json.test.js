@@ -10,28 +10,25 @@ describe('Comscan', function() {
         document.body.insertAdjacentHTML(
             'afterbegin',
             fixture);
-	alert("done");
+        setupInternalDataStructures(sample);	
+	setupMessageWindow();
 
     });
 
 
 // * Does that object have the right number of slides in it. 
     it('We can parse an example json document', function() {
-        setupInternalDataStructures(sample);	
         expect(Object.keys(links).length).toBe(100);
     });
 
 // * When loading the first page. Do a selection of the right squares have the correct message in them?
     it('When loading top page, the utterances are in the right place', function() {
-        setupInternalDataStructures(sample);	
         expect(labels["toppage"][0][0]).toBe('Yes');
         expect(labels["toppage"][1][1]).toBe('I want to talk to you.');
     });
 
 // * When pressing a particular button, does the message window change apropreityly 
   it('Message window sets up and changes with button press.', function() {
-        setupInternalDataStructures(sample);	
-	setupMessageWindow();
 	expect(document.getElementById("messagewindow").value).toBe("");
 	add(1,1);
 	expect(document.getElementById("messagewindow").value).toBe(" I want to talk to you.");
@@ -39,8 +36,6 @@ describe('Comscan', function() {
 
 
  it('clear function works', function() {
-        setupInternalDataStructures(sample);	
-	setupMessageWindow();
 	expect(document.getElementById("messagewindow").value).toBe("");
 	add(1,1);
 	expect(document.getElementById("messagewindow").value).toBe(" I want to talk to you.");
@@ -50,8 +45,6 @@ describe('Comscan', function() {
 
 
    it('clear function works', function() {
-        setupInternalDataStructures(sample);	
-	setupMessageWindow();
 	expect(document.getElementById("messagewindow").value).toBe("");
 	add(1,1);
 	expect(document.getElementById("messagewindow").value).toBe(" I want to talk to you.");
@@ -61,8 +54,6 @@ describe('Comscan', function() {
 
 
   it('Two part function works', function() {
-        setupInternalDataStructures(sample);	
-	setupMessageWindow();
 	expect(document.getElementById("messagewindow").value).toBe("");
 	add(2,2);
 	add(3,1);
@@ -85,7 +76,7 @@ describe('Comscan', function() {
 		beforeEach(function(done){
 			// You can call any async task, when done() is called the test will begin
 			manifest=""
-			load_json_file("http://localhost:9876/base/tests/testinputs/manifest.json", console.log);
+			load_json_file("manifest.json", function hope(){;});
 			setTimeout(() => {done();}, 1000); 
 		}); 
 		
@@ -97,7 +88,6 @@ describe('Comscan', function() {
 
 		
 		it('Check manifest file reads correctly', function(done) {
-			console.log(manifest);
 			expect(manifest['format']).toBe("open-board-0.1")
 			setTimeout(done(),2000)
 			});			
@@ -109,26 +99,26 @@ describe('Comscan', function() {
 			// You can call any async task, when done() is called the test will begin
 			currentpage=""
 			manifest=""
-			load_obf_page("http://localhost:9876/base/tests/testinputs/boards/toppage.obf");
+			load_obf_page("boards/toppage.obf");
 			setTimeout(() => {done();}, 1000); 
 		}); 
 		
 		
 		it('Mainpageloaded', function(done) {
 			expect(currentpage.length).not.toBeLessThan(1)
-			setTimeout(done(),2000)
+			done()
 			});			
 
 		
 		it('Check the number of columns', function(done) {
 			expect(currentpage.grid.columns).toBe(5)
-			setTimeout(done(),2000)
+			done()
 			});			
 
 		
 		it('Work out the grid', function(done) {
 			expect(obfadd(3,3).label).toBe("Describing")
-			setTimeout(done(),2000)
+			done()
 			});			
 });	
 
@@ -137,13 +127,13 @@ describe('Comscan', function() {
 			currentpage=""
 			manifest=""
 			// You can call any async task, when done() is called the test will begin
-			load_json_file("http://localhost:9876/base/tests/testinputs/manifest.json", parse_manifest);
+			load_json_file("manifest.json", parse_manifest);
 			setTimeout(() => {done();}, 1000); 
 		}); 
 		
 		it('Work out the grid', function(done) {
 			expect(obfadd(3,3).label).toBe("Describing")
-			setTimeout(done(),2000)
+			done()
 			});			
 });	
 

@@ -10,7 +10,6 @@ function setupInternalDataStructures(responseText){
 
             var obj = JSON.parse(responseText);
             for (grid in obj.Grid) {
-                console.log(obj.Grid[grid][0])
                 labels[obj.Grid[grid][0]] = obj.Grid[grid][1];
                 utterances[obj.Grid[grid][0]] = obj.Grid[grid][2];
                 links[obj.Grid[grid][0]] = obj.Grid[grid][3];
@@ -74,7 +73,6 @@ function load_json_file(filename, callbackfunction){
            manifest= JSON.parse(req.responseText);
 	   callbackfunction(manifest)
         } else {
-            console.log("Problem reading file");
         }
     };
 }
@@ -124,7 +122,6 @@ function setup_table() {
         }
     }
 }
-
 
 function compute_cell(x, y) {
     return $('#mainGrid tr:eq(' + x + ') td:eq(' + y + ')');
@@ -279,7 +276,6 @@ function processSpecialOld(command) {
 }
 
 function processSpecial(command) {
-    console.log(command);
     //So right now the command should start with an ovf( and end with a ) and then we know what is in there. so 
     //	
     if (command.startsWith("ovf(")) {
@@ -288,7 +284,6 @@ function processSpecial(command) {
         console.log("Special Command doesn't start with 'ovf(', bugging out");
         return;
     }
-    console.log("Command is now:" + command);
     //so far, all we've done is strip the 'command' from the front. But that's slightly the wrong order. 
     // What we want to do is execute the command each time
     // No, we want a javascript function for each command, that makes sense.
@@ -296,7 +291,6 @@ function processSpecial(command) {
     var commandArray = command.split(',');
     for (i = 0; i < commandArray.length; i++) {
         functionname = commandArray[i].split('(')[0]
-        console.log("Function Name is :" + functionname);
         switch (functionname) {
             case "clear":
                 //document.myform.reset();Works but NOT in tests
