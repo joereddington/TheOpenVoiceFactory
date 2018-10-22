@@ -40,7 +40,7 @@ return null
 
 }
 
-
+manifest=""
 currentpage=""
 
 function parseobf(obf)
@@ -48,9 +48,23 @@ function parseobf(obf)
 currentpage=obf;
 }
 
+
+function obf_internal(){
+console.log("checking for manifest")
+console.log(manifest)
+	if(manifest['format']=="open-board-0.1"){
+		return true
+	}
+	else{
+		return false
+	}
+}
+
 function parse_manifest(manifest_content){
+console.log("Parse manifest is called")
 //Input is structured data from the json file
-if(manifest['format']=="open-board-0.1"){
+manifest=manifest_content
+if(obf_internal()){
 load_obf_page(manifest['root'])
 }
 else{
@@ -67,11 +81,13 @@ function load_json_file(filename, callbackfunction){
 	  var req = new XMLHttpRequest();
 	  req.open("GET", filename);
 	  req.send(null);
+	  console.log("Here in load jhson file ")
     req.onreadystatechange = function() {
         
         if (req.readyState == 4 && req.status == 200) {
-           manifest= JSON.parse(req.responseText);
-	   callbackfunction(manifest)
+	   console.log("found it")
+           response= JSON.parse(req.responseText);
+	   callbackfunction(response)
         } else {
         }
     };
@@ -108,6 +124,7 @@ function setupMessageWindow() {
     $(area).css('left', (720 / grid_size_columns) + 7);
     $(area).css('top', 97);
     $(area).css('height', my_height);
+    document.getElementById("messagewindow").value= "";//for tests
 }
 
 function setup_table() {
@@ -204,7 +221,25 @@ function append(text) {
 }
 
 
+function obf_add(i,j)
+{
+console.log("in obf_add")
+append(obfadd(i,j).label);
+
+
+}
+
 function add(i, j) {
+console.log("In add")
+if (obf_internal())
+{
+
+console.log("Making a turn")
+obf_add(i,j)
+return
+}
+
+
     if (links[key][i][j] == "") {
         append(labels[key][i][j]);
     }
