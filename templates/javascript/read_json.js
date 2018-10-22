@@ -1,99 +1,131 @@
+function setupInternalDataStructures(responseText) {
+    key = "toppage";
+    utterances = {};
+    links = {};
+    colours = {};
+    icons = {};
+    labels = {};
+    slide_number = {};
 
-function setupInternalDataStructures(responseText){
-	    key = "toppage";
-	    utterances = {};
-	    links = {};
-	    colours = {};
-	    icons = {};
-	    labels = {};
-	    slide_number = {};
-
-            var obj = JSON.parse(responseText);
-            for (grid in obj.Grid) {
-                labels[obj.Grid[grid][0]] = obj.Grid[grid][1];
-                utterances[obj.Grid[grid][0]] = obj.Grid[grid][2];
-                links[obj.Grid[grid][0]] = obj.Grid[grid][3];
-                icons[obj.Grid[grid][0]] = obj.Grid[grid][4];
-                colours[obj.Grid[grid][0]] = obj.Grid[grid][5];
-                slide_number[obj.Grid[grid][0]] = obj.Grid[grid][6];
-                if (obj.Grid[grid][6] == 0) {
-                    key = obj.Grid[grid][0]
-                }
-            }
-            grid_size_rows = obj.Settings[0];
-            grid_size_columns = obj.Settings[0];
-
-}
-
-
-function load_obf_page(url){
-load_json_file(url, parseobf)
-
-}
-
-function obfadd(x, y){
-for (index =0; index<currentpage.buttons.length;index++){
-	if (parseInt(currentpage.buttons[index].id)==parseInt(currentpage.grid.order[x][y]))
-		{return currentpage.buttons[index] }
-}
-return null
-
-}
-
-manifest=""
-currentpage=""
-
-function parseobf(obf)
-{
-currentpage=obf;
-}
-
-
-function obf_internal(){
-console.log("checking for manifest")
-console.log(manifest)
-	if(manifest['format']=="open-board-0.1"){
-		return true
-	}
-	else{
-		return false
-	}
-}
-
-function parse_manifest(manifest_content){
-console.log("Parse manifest is called")
-//Input is structured data from the json file
-manifest=manifest_content
-if(obf_internal()){
-load_obf_page(manifest['root'])
-}
-else{
-//check for the other format and proceed or raise an error
-
-}
-
-
-}
-
-
-function load_json_file(filename, callbackfunction){
-	//go and get a manifest. We're starting with the one in the root of the template for now.
-	  var req = new XMLHttpRequest();
-	  req.open("GET", filename);
-	  req.send(null);
-	  console.log("Here in load jhson file ")
-    req.onreadystatechange = function() {
-        
-        if (req.readyState == 4 && req.status == 200) {
-	   console.log("found it")
-           response= JSON.parse(req.responseText);
-	   callbackfunction(response)
-        } else {
+    var obj = JSON.parse(responseText);
+    for (grid in obj.Grid) {
+        labels[obj.Grid[grid][0]] = obj.Grid[grid][1];
+        utterances[obj.Grid[grid][0]] = obj.Grid[grid][2];
+        links[obj.Grid[grid][0]] = obj.Grid[grid][3];
+        icons[obj.Grid[grid][0]] = obj.Grid[grid][4];
+        colours[obj.Grid[grid][0]] = obj.Grid[grid][5];
+        slide_number[obj.Grid[grid][0]] = obj.Grid[grid][6];
+        if (obj.Grid[grid][6] == 0) {
+            key = obj.Grid[grid][0]
         }
+    }
+    grid_size_rows = obj.Settings[0];
+    grid_size_columns = obj.Settings[0];
+}
+
+
+function load_obf_page(url) {
+    load_json_file(url, parseobf)
+
+}
+
+function obfadd(x, y) {
+    for (index = 0; index < currentpage.buttons.length; index++) {
+        if (parseInt(currentpage.buttons[index].id) == parseInt(currentpage.grid.order[x][y])) {
+            return currentpage.buttons[index]
+        }
+    }
+    return null
+
+}
+
+manifest = ""
+currentpage = ""
+
+function parseobf(obf) {
+    console.log("Parsing!")
+    currentpage = obf;
+    grid_size_rows = currentpage.grid.order.length;
+    grid_size_columns = currentpage.grid.order.length;
+    setupMessageWindow()
+    setup_table()
+    for (x = 0; x < grid_size_rows; x++) {
+        for (y = 0; y < grid_size_rows; y++) {
+	    console.log("Entering loop with X and Y of"+x+" "+y)
+            try {
+                if (!obfadd(x, y)) {
+                    compute_cell(x, y).html("")
+                } else {
+                    var image_html = "<IMG src=\"" + obfadd(x, y)["image_id"] + "\" class=\"" + get_size_class() + "\">";
+                    compute_cell(x, y).html("<b>" + obfadd(x, y).label + "</b><br>" + image_html);
+
+                    if (obfadd(x, y).label == "") {
+                        compute_cell(x, y).html("")
+                    }
+                    compute_cell(x, y).css('background-color', obfadd(x, y)["background_color"])
+                    compute_cell(x, y).removeClass('note')
+                    if ("load_board" in obfadd(x, y)) {
+                        compute_cell(x, y).addClass('note')
+                    }
+                }
+            } catch (err) {
+                alert("There has been an exception: " + err.message)
+            }
+        }
+    }
+}
+
+
+
+
+function obf_internal() {
+    console.log("checking for manifest")
+    console.log(manifest)
+    if (manifest['format'] == "open-board-0.1") {
+        return true
+    } else {
+        return false
+    }
+}
+
+function parse_manifest(manifest_content) {
+    console.log("Parse manifest is called")
+    //Input is structured data from the json file
+    manifest = manifest_content
+    grid_size_rows = 5;
+    grid_size_columns = 5;
+    if (obf_internal()) {
+        load_obf_page("data/" + manifest['root'])
+    } else {
+        //check for the other format and proceed or raise an error
+
+    }
+
+
+}
+
+
+function load_json_file(filename, callbackfunction) {
+    //go and get a manifest. We're starting with the one in the root of the template for now.
+    var req = new XMLHttpRequest();
+    req.open("GET", filename);
+    req.send(null);
+    console.log("Here in load json file " + filename)
+    req.onreadystatechange = function() {
+
+        if (req.readyState == 4 && req.status == 200) {
+            console.log("found it")
+            response = JSON.parse(req.responseText);
+            callbackfunction(response)
+        } else {}
     };
 }
 
 
+
+function startprime() {
+    load_json_file("data/manifest.json", parse_manifest)
+}
 
 function start() {
     var req = new XMLHttpRequest();
@@ -102,7 +134,7 @@ function start() {
     req.send(null);
     req.onreadystatechange = function() {
         if (req.readyState == 4 && req.status == 200) {
-	    setupInternalDataStructures(req.responseText);
+            setupInternalDataStructures(req.responseText);
             setupMessageWindow();
             setup_table();
             load_page(key);
@@ -124,11 +156,16 @@ function setupMessageWindow() {
     $(area).css('left', (720 / grid_size_columns) + 7);
     $(area).css('top', 97);
     $(area).css('height', my_height);
-    document.getElementById("messagewindow").value= "";//for tests
+    document.getElementById("messagewindow").value = ""; //for tests
 }
 
 function setup_table() {
+    console.log("SETUPTABLE")
+
     var table = document.getElementById("mainGrid");
+    while (table.hasChildNodes()) {
+        table.removeChild(table.lastChild);
+    } //in case it is called twice 
     table.className = get_size_class();
     for (y = 0; y < grid_size_rows; y++) {
         var row = table.insertRow(0);
@@ -216,35 +253,33 @@ function append(text) {
         document.myform.outputtext.value += text;
     } else {
         //document.myform.outputtext.value += " " + text; (works, but NOT when testing... 
-	document.getElementById("messagewindow").value+= " " +text;
+        document.getElementById("messagewindow").value += " " + text;
     }
 }
 
 
-function obf_add(i,j)
-{
-console.log("in obf_add")
+function obf_add(i, j) {
+    console.log("in obf_add")
 
-if ("load_board" in obfadd(i,j)){
+    if ("load_board" in obfadd(i, j)) {
 
-load_json_file(obfadd(i,j)["load_board"]["path"], parseobf)
+        load_json_file("data/" + obfadd(i, j)["load_board"]["path"], parseobf)
 
 
-}else{
-	append(obfadd(i,j).label);
-}
+    } else {
+        append(obfadd(i, j).label);
+    }
 
 }
 
 function add(i, j) {
-console.log("In add")
-if (obf_internal())
-{
+    console.log("In add")
+    if (obf_internal()) {
 
-console.log("Making a turn")
-obf_add(j,i)
-return
-}
+        console.log("Making a turn")
+        obf_add(j, i)
+        return
+    }
 
 
     if (links[key][i][j] == "") {
@@ -289,8 +324,8 @@ function processSpecialOld(command) {
     for (i = 0; i < commandArray.length; i++) {
         switch (commandArray[i]) {
             case "special::clear":
-               // document.myform.reset();Works, but NOT in tests...
-		document.getElementById("messagewindow").value= "";
+                // document.myform.reset();Works, but NOT in tests...
+                document.getElementById("messagewindow").value = "";
                 break;
             case "special::unfinnished":
                 alert("This feature is unimplemented on the web demo");
@@ -336,7 +371,7 @@ function processSpecial(command) {
         switch (functionname) {
             case "clear":
                 //document.myform.reset();Works but NOT in tests
-		document.getElementById("messagewindow").value= "";
+                document.getElementById("messagewindow").value = "";
 
                 break;
             case "backspace":
