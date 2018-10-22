@@ -59,6 +59,14 @@ currentpage=obf;
 }
 
 
+function start(){
+load_json_file("tests/testinputs/manifest.json", alert)
+
+
+start_ovf()
+
+}
+
 function load_json_file(filename, callbackfunction){
 	//go and get a manifest. We're starting with the one in the root of the template for now.
 	  var req = new XMLHttpRequest();
@@ -82,7 +90,7 @@ function load_json_file(filename, callbackfunction){
 
 
 
-function start() {
+function start_ovf() {
     var req = new XMLHttpRequest();
     req.open("GET", "pageset.json");
     req.overrideMimeType("application/json");

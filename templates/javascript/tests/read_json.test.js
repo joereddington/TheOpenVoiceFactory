@@ -132,6 +132,7 @@ describe('Comscan', function() {
 
 		
 			});	
+
 	
 
 //Keep for the spy snippet 
