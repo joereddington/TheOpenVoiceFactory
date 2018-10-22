@@ -86,7 +86,7 @@ describe('Comscan', function() {
 			// You can call any async task, when done() is called the test will begin
 			manifest=""
 			load_json_file("http://localhost:9876/base/tests/testinputs/manifest.json", console.log);
-			setTimeout(() => {done();}, 100); 
+			setTimeout(() => {done();}, 1000); 
 		}); 
 		
 		
@@ -110,7 +110,7 @@ describe('Comscan', function() {
 			currentpage=""
 			manifest=""
 			load_obf_page("http://localhost:9876/base/tests/testinputs/boards/toppage.obf");
-			setTimeout(() => {done();}, 100); 
+			setTimeout(() => {done();}, 1000); 
 		}); 
 		
 		
@@ -138,7 +138,7 @@ describe('Comscan', function() {
 			manifest=""
 			// You can call any async task, when done() is called the test will begin
 			load_json_file("http://localhost:9876/base/tests/testinputs/manifest.json", parse_manifest);
-			setTimeout(() => {done();}, 100); 
+			setTimeout(() => {done();}, 1000); 
 		}); 
 		
 		it('Work out the grid', function(done) {

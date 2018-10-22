@@ -33,26 +33,17 @@ load_json_file(url, parseobf)
 }
 
 function obfadd(x, y){
-
-console.log("Here")
-console.log(currentpage.grid.order) 
-console.log(currentpage.grid.order[x][y]) 
-
 for (index =0; index<currentpage.buttons.length;index++){
-	console.log("here"+currentpage.buttons[index].id);
-	console.log("We compare: x"+(currentpage.buttons[index].id)+"x and "+parseInt(currentpage.grid.order[x][y]))
 	if (parseInt(currentpage.buttons[index].id)==parseInt(currentpage.grid.order[x][y]))
 		{return currentpage.buttons[index] }
 }
-
 return null
-
-
 
 }
 
 
 currentpage=""
+
 function parseobf(obf)
 {
 currentpage=obf;
@@ -69,30 +60,23 @@ else{
 }
 
 
-
-
 }
 
 
 function load_json_file(filename, callbackfunction){
 	//go and get a manifest. We're starting with the one in the root of the template for now.
 	  var req = new XMLHttpRequest();
-          console.log("a"); 
-          console.log(filename); 
 	  req.open("GET", filename);
 	  req.send(null);
     req.onreadystatechange = function() {
         
         if (req.readyState == 4 && req.status == 200) {
-           console.log("hello"); 
-           console.log(req.responseText); 
            manifest= JSON.parse(req.responseText);
 	   callbackfunction(manifest)
         } else {
             console.log("Problem reading file");
         }
     };
-          console.log("b"); 
 }
 
 
