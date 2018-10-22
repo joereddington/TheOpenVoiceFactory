@@ -58,14 +58,21 @@ function parseobf(obf)
 currentpage=obf;
 }
 
-
-function start(){
-load_json_file("tests/testinputs/manifest.json", alert)
-
-
-start_ovf()
+function parse_manifest(manifest_content){
+//Input is structured data from the json file
+if(manifest['format']=="open-board-0.1"){
+load_obf_page("/base/tests/testinputs/"+manifest['root'])
+}
+else{
+//check for the other format and proceed or raise an error
 
 }
+
+
+
+
+}
+
 
 function load_json_file(filename, callbackfunction){
 	//go and get a manifest. We're starting with the one in the root of the template for now.
@@ -90,7 +97,7 @@ function load_json_file(filename, callbackfunction){
 
 
 
-function start_ovf() {
+function start() {
     var req = new XMLHttpRequest();
     req.open("GET", "pageset.json");
     req.overrideMimeType("application/json");

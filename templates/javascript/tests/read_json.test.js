@@ -129,9 +129,26 @@ describe('Comscan', function() {
 			expect(obfadd(3,3).label).toBe("Describing")
 			setTimeout(done(),2000)
 			});			
+});	
 
+	describe("Load root file from manifest", function() {
+		beforeEach(function(done){
+			currentpage=""
+			// You can call any async task, when done() is called the test will begin
+			load_json_file("http://localhost:9876/base/tests/testinputs/manifest.json", parse_manifest);
+			setTimeout(() => {done();}, 100); 
+		}); 
 		
-			});	
+		
+		
+		it('Work out the grid', function(done) {
+			expect(obfadd(3,3).label).toBe("Describing")
+			setTimeout(done(),2000)
+			});			
+});	
+
+
+
 
 	
 
