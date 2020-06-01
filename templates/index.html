@@ -12,6 +12,11 @@
             $(".loader").fadeOut("slow");
         })
     </script>
+    <script type="text/javascript">
+      // This call is to ensure that voices are loaded by the time
+      // we try to synthesize an utterance.
+      speechSynthesis.getVoices();
+    </script>
 </head>
 
 
